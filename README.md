@@ -4,6 +4,10 @@
 lllll
 
 切换到目标目录  使用git init命令，可初始化本地仓库 
+git branch 查看当前的分支
+git branch hi  创建一个叫做“hi”的分支
+git checkout hi 切换分支到“hi”的分支
+git branch -d hi 删除“hi”分支
 
 
 git clone 地址    ：下载gitHub上的项目
