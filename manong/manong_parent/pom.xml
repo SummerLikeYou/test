@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>manong</artifactId>
+        <groupId>com.fenbushi</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>manong_parent</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>../manong_common</module>
+        <module>../manong_manager</module>
+        <module>../manong_sso</module>
+        <module>../manong_rest</module>
+        <module>../manong_search</module>
+    </modules>
+
+    <properties>
+        <mybatis.version>3.2.8</mybatis.version>
+        <mybatis.spring.version>1.2.2</mybatis.spring.version>
+        <junit.version>4.12</junit.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>${mybatis.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis-spring</artifactId>
+            <version>${mybatis.spring.version}</version>
+        </dependency>
+    </dependencies>
+
+
+</project>
