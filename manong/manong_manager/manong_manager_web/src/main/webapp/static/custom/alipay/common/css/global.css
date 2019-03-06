@@ -1,0 +1,194 @@
+/* CSS Document */
+/*每个页面都需要引入的，初始化标签样式
+ *自定义一些样式类，便于共用
+ * .floatLeft左浮动
+ * .clear清浮动
+ * .ry_container宽度1200像素居中相对定位的内容框
+ * body背景色
+ * .hide隐藏
+*/
+
+/*============================== common ===============================*/
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box !important;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+form,
+img,
+dl,
+dt,
+dd,
+table,
+th,
+td,
+blockquote,
+fieldset,
+div,
+strong,
+label,
+em {
+  border: none;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+input,
+a {
+  outline: none;
+  /*blr: expression_r(this.onFocus=this.blur());*/
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #FFFFFF inset;
+}
+
+input::-ms-clear,
+input::-ms-reveal {
+  display: none;
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  background-color: transparent;
+  color: #333333;
+}
+
+h1,h2,h3,h4,h5,h6,a,p,div,ul,ol {
+  font-family: 'Microsoft YaHei' !important;
+}
+
+body {
+  position: relative;
+  top: 0;
+  left: 0;
+  min-width: 1200px;
+  font-size: 12px;
+  font-family: 'Microsoft YaHei' !important;
+  z-index: 0;
+  background-color: #f6f6f6;
+}
+
+input,
+button {
+  font-family: "微软雅黑";
+  font-size: 12px;
+}
+
+ul,
+ol,
+dl {
+  list-style: none outside none;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+img {
+  border: 0 none;
+  vertical-align: middle;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none !important;
+  cursor: pointer;
+  outline: none;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  outline: none;
+}
+
+a:active {
+  text-decoration: none;
+  outline: none;
+}
+
+.clearfix {
+  /*解决IE6-7清浮动兼容*/
+  zoom: 1;
+}
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+  overflow: hidden;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.floatLeft {
+  float: left;
+}
+
+.floatRight {
+  float: right;
+}
+
+.hide {
+  display: none;
+}
+
+#ry_webMainBody {
+  min-width: 1200px;
+  min-height: 555px;
+}
+
+.ry_container {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.mark {
+  color: #f00 !important;
+}
+
+#ry_popu {
+  position: fixed;
+  z-index: 1917;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: url("../images/shadeBg.png");
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  line-height: inherit;
+}
+
+.bgColor-whiet {
+  background-color: #fff !important;
+}

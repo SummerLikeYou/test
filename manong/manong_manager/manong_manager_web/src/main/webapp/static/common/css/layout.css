@@ -1,0 +1,1249 @@
+/* CSS Document */
+
+
+/*公共样式开始*/
+
+
+/*top开始*/
+
+.top {
+	/*width: 100%;*/
+	height: 60px;
+	background-color: ;
+	background:url(../images/topbg.png) #2D92D1 no-repeat left;
+	padding-left:20% ;
+}
+.topmain{
+	width: 70%;
+	margin: 0 auto;
+}
+.topmain img{
+	float: left;
+	border: 0;
+	padding-top: 2px;
+}
+.logotit{
+	float: left;
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 60px;
+	color: #fff;
+	padding-left:16px;
+}
+.bar {
+	width: 1200px;
+	margin: 0 auto;
+	line-height: 80px;
+}
+
+.bar_left {
+	width: 70%;
+	float: left;
+}
+
+
+.bar_right {
+	position: relative;	
+	width:100%;
+	text-align:right;
+	height: 55px;
+	/*left: 75%;*/
+	top: 20px;
+}
+
+.show_name{
+	font-size: 14px;
+	color: #fff;
+	padding: 0 6px;
+}
+.bar_left ul li.frist_li {
+	margin-left: 0;
+}
+
+.bar_left ul li.frist_li .logo_i {
+	display: block;
+	width: 150px;
+	height: 80px;
+	background: url(../../index/images/icon.png) no-repeat -50px -976px;
+}
+
+.bar_left ul li {
+	float: left;
+	margin: 0 10px;
+	font-size: 16px;
+}
+
+.bar_left ul li:hover {}
+
+.bar_left .hover_a,.bar_left .active {
+	display: inline-block;
+	height: 78px;
+	color: #fff;
+	width: 132px;
+	text-align: center;
+}
+
+.bar_left .hover_a:hover,.bar_left .active  {
+	border-bottom: 2px solid;
+}
+
+.bar_right ul li {
+	float: right;
+	margin: 0 2px;
+	height: 60px;
+	line-height: 40px;
+}
+
+.login_a,
+.register_a,.exit_a {
+	display: inline-block;
+	width: 110px;
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+	border-radius: 32px;
+	text-align: center;
+	border: 1px solid #fff;
+}
+
+.login_a:hover,
+.register_a:hover,.exit_a:hover{
+	background-color: #fff;
+	color: #1976d2;
+}
+
+
+/*top结束*/
+
+
+/*footer开始*/
+
+.footer {
+	clear: both;
+	width: 100%;
+	background: url(../images/footer_bg.png) no-repeat center center;
+	position: fixed;
+	bottom: 0;
+}
+/* .foot {
+	width: 820px;
+	margin: 0 auto;
+	text-align: center;
+	height: 50px;
+	line-height: 90px;
+} */
+
+/* .foot li {
+	margin: 0 50px;
+	float: left;
+}
+
+.foot li a {
+	color: #cbcbcb;
+	font-size: 14px;
+}
+
+.foot li a:hover {
+	color: #fff;
+}
+ */
+.footer p {
+	top:10px;
+	height: 100%;
+	clear: both;
+	text-align: center;
+	color: #cbcbcb;
+	font-size: 14px;
+}
+/*footer结束*/
+
+
+/*浮动开始*/
+
+.wechat_barcode {
+	bottom: 350px;
+	right: 6%;
+	margin-left: 510px;
+	position: fixed;
+	z-index: 2001;
+	display: none;
+}
+
+.wechat_barcode .we_inwrap {
+	position: relative;
+	background: #fff;
+	height: 350px;
+	width: 106px;
+}
+
+.my_wechat_bar,
+.my_wechat_cancel,
+.my_wechat_hide {
+	background: url(../../index/images/icon.png) no-repeat;
+	display: block;
+	cursor: pointer;
+}
+
+.wechat_barcode .my_wechat_bar {
+	background-position: 14px -1110px;
+	height: 106px;
+	width: 106px;
+}
+
+.wechat_barcode .my_wechat_cancel {
+	position: absolute;
+	right: 4px;
+	top: 2px;
+	width: 18px;
+	height: 18px;
+	background-position: 6px -1249px;
+}
+
+.wechat_barcode .we_inwrap .we_inwra_p {
+	width: 94px;
+	text-align: center;
+	color: #727272;
+	margin: 0 auto;
+}
+
+.we_inwrap_hide {
+	bottom: 374px;
+	right: 0;
+	margin-left: 510px;
+	position: fixed;
+	z-index: 2001;
+}
+
+.my_wechat_hide {
+	background-position: -98px -1122px;
+	height: 110px;
+	width: 110px;
+}
+
+
+/*浮动结束*/
+
+
+/*公共样式开始*/
+
+
+/*主体部分开始*/
+
+.main {
+	width: 100%;
+	background: #fff;
+	min-height: 550px;
+}
+
+.main_bar {
+	width: 100%;
+	background: #fff;
+	overflow: hidden;
+}
+
+.content_width {
+	/*width: 1200px;*/
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+/*登录注册开始*/
+
+.login_title {
+	text-align: center;
+	background: #f7f7f7;
+}
+
+.login_title li {
+	display: inline-block;
+	color: #b6b6b6;
+	font-size: 16px;
+	line-height: 58px;
+	width: 132px;
+	cursor: pointer;
+}
+
+.login_li {
+	margin-right: 15px;
+}
+
+.register_li {
+	margin-left: 15px;
+}
+.login_li a,.register_li a{
+	color: #212121;
+    display: inline-block;
+    height: 58px;
+    width: 132px;
+}
+.login_title li:hover,
+.login_title li.active {
+	border-bottom: 1px solid #727272;
+	color: #212121;
+}
+
+.login_area {
+	margin: 0 auto;
+	width: 326px;
+}
+
+.register_area {
+	display: none;
+	margin: 0 auto;
+	width: 326px;
+}
+
+.forget_area {
+	margin-top: 30px;
+	width: 326px;
+	margin: 0 auto;
+}
+
+.input_text {
+	border-radius: 24px;
+	height: 44px;
+	line-height: 44px;
+	padding-left: 50px;
+	width: 274px;
+	color: #333;
+	font-size: 14px;
+}
+
+.verificate_text {
+	border: 1px solid #ddd;
+	border-radius: 24px;
+	height: 44px;
+	line-height: 44px;
+	padding-left: 50px;
+	width: 162px;
+	/*color: #b6b6b6;*/
+	font-size: 14px;
+}
+
+.sendmess_text {
+	border: 1px solid #ddd;
+	border-radius: 24px;
+	height: 44px;
+	line-height: 44px;
+	padding-left: 50px;
+	width: 125px;
+	color: #b6b6b6;
+}
+
+.login_area ul li,
+.register_area ul li,
+.forget_area ul li {
+	position: relative;
+	margin: 35px 0;
+}
+.login_area ul li.btn_li{
+	margin-top: 32px;
+	margin-bottom: 10px;
+}
+.user_normal,
+.user_success,
+.user_error,
+.password_normal,
+.password_success,
+.password_error,
+.verificate_normal,
+.verificate_success,
+.verificate_error,
+.name_normal,
+.name_success,
+.name_error,
+.sms_normal,
+.sms_success,
+.sms_error,
+.email_normal,
+.email_success,
+.email_error,
+.i_icon,
+.i_nocheck {
+	background: url("../images/layout.png") no-repeat;
+	display: block;
+	height: 26px;
+	left: 0px;
+	position: absolute;
+	top: 12px;
+	width: 26px;
+	cursor: pointer;
+	margin-left: 16px;
+}
+
+.i_icon {
+	top: 2px;
+	background-position: 0 -356px;
+}
+
+.i_nocheck {
+	top: 2px;
+	background-position: 0 -334px;
+}
+
+.checkboxPic {
+	cursor: pointer;
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+	outline: medium none;
+	overflow: hidden;
+	vertical-align: middle;
+	width: 25px;
+}
+
+.tips_normal,
+.tips_error {
+	height: 19px;
+	left: 0px;
+	position: absolute;
+	top: 55px;
+	margin-left: 20px;
+	text-align: left;
+	width: 500px;
+}
+.public_style{
+	height: 19px;
+	left: 0px;
+	position: absolute;
+	top: -24px;
+	margin-left: 20px;
+	text-align: left;
+	width: 500px;
+	color: #ff1654;
+}
+.normal_con {
+	border: 1px solid #ddd;
+}
+
+.user_normal {
+	background-position: 0 0;
+}
+
+.name_normal {
+	background-position: 0 -392px;
+}
+
+.password_normal {
+	background-position: 0 -102px;
+}
+
+.verificate_normal {
+	background-position: 0 -204px;
+}
+
+.sms_normal {
+	background-position: 0 -305px;
+}
+
+.email_normal {
+	background-position: 0 -809px;
+}
+
+.tips_normal {
+	color: #b6b6b6;
+}
+
+
+/*成功样式开始*/
+
+.user_success {
+	background-position: 0 -34px;
+}
+
+.name_success {
+	background-position: 0 -425px;
+}
+
+.password_success {
+	background-position: 0 -136px;
+}
+
+.verificate_success {
+	background-position: 0 -238px;
+}
+
+.sms_success {
+	background-position: 0 -493px;
+}
+
+.email_success {
+	background-position: 0 -843px;
+}
+
+.success_con {
+	border: 1px solid #2e92d1;
+}
+
+
+/*成功样式结束*/
+
+
+/*错误样式开始*/
+
+.user_error {
+	background-position: 0 -68px;
+}
+
+.name_error {
+	background-position: 0 -460px;
+}
+
+.password_error {
+	background-position: 0 -169px;
+}
+
+.verificate_error {
+	background-position: 0 -272px;
+}
+
+.sms_error {
+	background-position: 0 -527px;
+}
+
+.error_con {
+	border: 1px solid #ff1654;
+}
+
+.email_error {
+	background-position: 0 -876px;
+}
+
+.tips_error {
+	color: #ff1654;
+}
+
+
+/*错误样式结束*/
+
+.verificate_span {
+	border: 1px solid #2e92d1;
+	border-radius: 23px;
+	display: inline-block;
+	height: 44px;
+	width: 90px;
+	line-height: 44px;
+	margin-left: 14px;
+}
+
+.verificate_span img {
+	width: 90px;
+	height: 44px;
+}
+
+.sendmess_span,
+.countdown_span {
+	border: 1px solid #2e92d1;
+	border-radius: 20px;
+	display: inline-block;
+	height: 44px;
+	width: 120px;
+	line-height: 44px;
+	margin-left: 14px;
+}
+.sendmess_span:hover{
+	color: #fff;
+	background: #2e92d1;
+}
+.verificate_span img {
+	border-radius: inherit;
+}
+
+.verificate_span {
+	color: #2e92d1;
+}
+
+.sendmess_span {
+	color: #2e92d1;
+}
+
+.countdown_span {
+	color: #b6b6b6;
+}
+
+.free_span {
+	color: #b6b6b6;
+	display: inline-block;
+	height: 26px;
+	left: 0;
+	line-height: 26px;
+	position: absolute;
+	text-align: left;
+	width: 230px;
+	margin-left: 34px;
+}
+
+.free_span a {
+	color: #2d92d1;
+}
+
+.forget_pass {
+	color: #b6b6b6;
+	height: 28px;
+	line-height: 28px;
+	margin-left: 20px;
+	position: absolute;
+	right: 0;
+}
+
+.login_btn,
+.register_btn,
+.next_btn {
+	border-radius: 24px;
+	height: 46px;
+	line-height: 46px;
+	width: 324px;
+	color: #2e92d1;
+	background-color: #fff;
+	border: 1px solid #2e92d1;
+	font-size: 18px;
+}
+.login_btn:hover,
+.register_btn:hover,
+.next_btn:hover {
+	color: #fff;
+	background: #2e92d1;
+}
+
+.next_btn {
+	margin-top: 20px;
+}
+
+.success_area {
+	width: 500px;
+	margin: 66px auto 0;
+	overflow: hidden;
+}
+
+.success_i {
+	background: url("../images/layout.png") no-repeat 0 -562px;
+	display: inline-block;
+	height: 63px;
+	width: 64px;
+	float: left;
+	margin-left: 20px;
+}
+
+.success_intro {
+	width: 400px;
+	float: right;
+	text-align: left;
+	margin-top: 10px;
+}
+
+.success_intro h3 {
+	font-size: 16px;
+	font-weight: normal;
+	color: #2e92d1;
+}
+
+.success_intro p {
+	margin-top: 8px;
+	font-size: 12px;
+	color: #727272;
+}
+
+.success_intro p a {
+	color: #2e92d1;
+}
+
+
+/*忘记密码开始*/
+
+.step_aera {
+	margin: 0 auto;
+	margin-top: 30px;
+	width: 774px;
+	height: auto;
+}
+
+.ui-step {
+	padding: 0 40px;
+	margin: 0 auto;
+	font-size: 14px;
+	list-style: none;
+	zoom: 1;
+	position: relative;
+	color: #b6b6b6;
+	overflow: hidden;
+	left: 170px;
+}
+
+.left_216 {
+	left: 216px;
+}
+
+.ui-step li {
+	float: left;
+	height: 54px;
+	margin: 0;
+	width: 20%;
+	position: relative;
+}
+
+.ui-step .ui-step-active {
+	color: #2e92d1;
+}
+
+.ui-step li .ui-step-line {
+	height: 1px;
+	background: #b9b9b9;
+	display: block;
+	margin-top: 14px;
+	line-height: 1;
+	overflow: hidden;
+}
+
+.ui-step li .ui-step-icon {
+	height: 50px;
+	position: absolute;
+	top: 0;
+	width: 130px;
+	text-align: center;
+	left: -25px;
+	font-family: tahoma;
+}
+
+.iconfont,
+.active_iconfont {
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	background: url(../images/layout.png) ;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.iconfont {
+	background-position: 0 -1672px;
+}
+
+.active_iconfont {
+	background-position: 0 -1637px;
+}
+
+.ui-step .ui-step-active i.ui-step-number {
+	color: #FFF;
+}
+
+.ui-step-icon .ui-step-number {
+	line-height: 14px;
+	font-style: normal;
+	position: absolute;
+	top: 6px;
+	left: -11px;
+	padding: 0 20px;
+	font-weight: 700;
+	color: #727272;
+}
+
+.ui-step-icon .ui-step-text {
+	height: 20px;
+	line-height: 20px;
+	position: relative;
+	text-shadow: 0 1px 0 #fff;
+	top: 34px;
+	left: -50px;
+}
+
+.ui-step li.ui-step-end {
+	position: absolute;
+	top: 0;
+	right: -110px;
+	width: 150px;
+	zoom: 1;
+	_clear: both;
+}
+
+.forget_tips {
+	width: 350px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.success_tips {
+	width: 350px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.success_tips h4 {
+	font-weight: normal;
+	font-size: 16px;
+	color: #212121;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+.forget_tips h4 {
+	font-weight: normal;
+	font-size: 14px;
+	color: #b6b6b6;
+	margin-bottom: 15px;
+}
+
+.forget_tips p {
+	font-size: 14px;
+	color: #212121;
+}
+
+
+/*密码强度开始*/
+
+.pw-strength {
+	clear: both;
+	left: 24px;
+	position: relative;
+	top: 32px;
+	width: 300px;
+}
+
+.pw-bar {
+	background: url(../images/pwd-1.png) no-repeat;
+	height: 20px;
+	overflow: hidden;
+	width: 295px;
+}
+
+.pw-bar-on {
+	background: url(../images/pwd-2.png) no-repeat;
+	width: 0px;
+	height: 20px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	transition: width .5s ease-in;
+	-moz-transition: width .5s ease-in;
+	-webkit-transition: width .5s ease-in;
+	-o-transition: width .5s ease-in;
+}
+
+.pw-weak .pw-defule {
+	width: 0px;
+}
+
+.pw-weak .pw-bar-on {
+	width: 95px;
+}
+
+.pw-medium .pw-bar-on {
+	width: 191px;
+}
+
+.pw-strong .pw-bar-on {
+	width: 295px;
+}
+
+.pw-txt {
+	padding-top: 2px;
+	width: 295px;
+	overflow: hidden;
+}
+
+.pw-txt span {
+	color: #707070;
+	float: left;
+	font-size: 12px;
+	text-align: center;
+	width: 95px;
+}
+
+
+/*密码强度结束*/
+
+
+/*登录注册结束*/
+
+
+/*主体部分结束*/
+
+
+/*-----登录弹出框开始------*/
+
+
+/*-----登录弹出框结束------*/
+
+
+/*-----提示弹出框开始------*/
+
+
+/*-----提示弹出框结束------*/
+
+
+/*-----面包屑开始------*/
+
+.crumbs {
+	background: #f7f7f7;
+}
+
+.crumbs_bar {
+	height: 60px;
+	line-height: 60px;
+	text-align: left;
+}
+
+.crumbs_index_link {
+	font-size: 16px;
+	color: #727272;
+	margin-right: 10px;
+}
+
+.arror {
+	font-size: 16px;
+	color: #727272;
+}
+
+.crumbs_link {
+	font-size: 16px;
+	color: #727272;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.crumbs_index_link:hover,
+.crumbs_link:hover,
+.link_active {
+	color: #212121;
+}
+
+
+/*-----面包屑结束------*/
+
+/*帮助中心*/
+.help_top {
+    background-color: #efefed;
+    height: 180px;
+    width: 100%;
+}
+.help_til{
+		padding-top: 40px;
+}
+.help_img{
+	width:600px;
+	float: left;
+
+	text-align: right;
+}
+.help_img img{
+	width: 129px;
+	height: 141px;
+}
+.help_words{
+	width: 580px;
+	float: left;
+	text-align: left;
+	padding-top: 50px;
+	margin-left: 20px;
+}
+.help_words h2{
+	font-size:34px;
+	color: #2e92d1;
+}
+.help_words p{
+	font-size: 18px;
+	color: #b6b6b6;
+	letter-spacing: 1px;
+	
+}
+.customer_service{
+	clear: both;
+	height: 140px;
+	background:url(../images/line.png) no-repeat center center #fff;
+}
+.customer_h2{
+	 color: #2e92d1;
+    font-size: 30px;
+    line-height: 50px;
+    padding-top: 32px;
+    text-align: center;
+}
+.customer_p{
+	 color: #2e92d1;
+    font-size: 16px;
+}
+.help_group{
+	background: #fff;
+    clear: both;
+    overflow: hidden;
+    color: #fff;
+    padding-bottom: 180px;
+}
+.group_item{
+	width:360px;
+	float: left;
+	height: 190px;
+	margin-right: 60px;
+}
+.last_box{
+	margin-right: 0;
+}
+.blue{
+	background-color: #2e92d1;
+}
+.green{
+	background-color: #5db105;
+}
+.red{
+	background-color: #ff1654;
+}
+.qq{
+	width:100px;
+	float: left;
+	padding-left: 10px;
+	padding-top: 46px;
+	}
+.qq_i,.phone_i,.message_i{
+	display: inline-block;
+	width: 100px;
+	height: 106px;
+	background: url(../images/helpcenter.png) no-repeat;
+}
+.qq_i{
+	background-position: 0 0;
+}
+.phone_i{
+	background-position: 0 -166px;
+}
+.message_i{
+	background-position: 0 -296px;
+}
+.qq_explain{
+	float: left;
+    margin-left: 10px;
+    padding-top: 20px;
+    text-align: left;
+    width: 240px;
+}
+.message_explain{
+	float: left;
+    margin-left: 30px;
+    padding-top: 20px;
+    text-align: left;
+    width: 220px;
+	}
+.qq_explain h2{
+	font-weight: normal;
+	font-size: 18px;
+}
+.qq_explain_p{
+	font-size: 14px;
+	color: #afe0ff;
+	width: 202px;
+	padding-top:12px;
+}
+.phone_explain_p{
+	font-size: 14px;
+	color: #e2ffc3;
+	width: 202px;
+	padding-top:12px
+}
+.message_explain_p{
+	font-size: 14px;
+	color: #fdc5d4;
+	width: 202px;
+	padding-top: 12px;
+}
+.message_btn{
+	width: 157px;
+	height: 40px;
+	border: none;
+	background: #fff;
+	border-radius: 20px;
+	margin-top: 20px;
+	font-size: 16px;
+	color: #ff1654;
+	cursor: pointer;
+}
+.qq_btn{
+	width: 157px;
+	height: 40px;
+	border: none;
+	background: #fff;
+	border-radius: 20px;
+	margin-top: 20px;
+	font-size: 16px;
+	color: #2e92d1;
+	cursor: pointer;
+}
+.qq_group{
+	 color: #afe0ff;
+    font-size: 12px;
+    margin-top: 10px;
+    width: 252px;
+}
+.phone_number{
+	 color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    padding-top: 29px;
+}
+.qq_small_i,.message_small_i{
+	background:url("../images/helpcenter.png") no-repeat scroll ;
+    display: inline-block;
+    height: 28px;
+    padding-right: 10px;
+    vertical-align: middle;
+    width: 20px;
+  
+}
+.qq_small_i{
+	background-position: 0 -112px;
+}
+.message_small_i{
+	background-position: 0 -419px;
+}
+/*弹出框开始*/
+#loading-mask{
+        position:absolute;
+        left:0;
+        top:0;
+        width:100%;
+        height:100%;
+        z-index:1001;
+        background-color:gray;
+        opacity: 0.5;
+    }
+.pop-up {
+    background-color: #fff;
+    height: auto;
+    left: 50%;
+    margin: -100px 0 0 -200px;
+    position: absolute;
+    top: 50%;
+    width: 400px;
+    z-index: 1002;
+}
+.pop-up h2{
+	position: relative;
+	color: #212121;
+	text-align: center;
+	font-size: 16px;
+	font-weight: normal;
+	padding-top: 30px;
+}
+.close_i{
+	background: url(../images/layout.png) no-repeat;
+	display: inline-block;
+	width: 34px;
+	height: 34px;
+	position: absolute;
+	right: 20px;
+	top: 24px;
+	cursor: pointer;
+}
+.close_i{
+	background-position:0 -923px;
+}
+.close_i:hover{
+	background-position:0 -966px;
+}
+.login_area .regi_li{
+	margin: 15px 0;
+	padding-left: 20px;
+}
+.login_area .regi_li a{
+	color: #b6b6b6;
+}
+.login_area .regi_li a:hover{
+	color:  #2e92d1;
+}
+/*弹出框结束*/
+
+/*服务协议开始*/
+.agreement{
+	font-size: 14px;
+	color: #424242;
+	text-align: left;
+	text-indent: 20px;
+}
+.agreement_content{
+	margin-bottom: 20px;
+}
+/*服务协议结束*/
+/*-------分页------*/
+.page_bg {
+	width: 100%;
+	background: #fff;
+	padding-top: 88px;
+	padding-bottom: 20px;
+	clear: both;
+}
+.pagination {
+	width: auto;
+	color: #999;
+	margin: 15px auto;
+	overflow: hidden;
+	text-align: center;
+}
+.pagination ul {
+	margin: 0 auto;
+}
+.pagination li {
+	display: inline;
+	list-style-type: none;
+}
+.page_bg .pagination a {
+	display: inline-block;
+	margin: 0 2px;
+	padding: 6px 15px;
+	border: 1px solid #dfdfdf;
+	color: #B0B0B0;
+}
+.page_bg .pagination a:hover {
+	background: #2E92D0;
+	color: #fff;
+}
+.pagination .active a {
+	z-index: 2;
+	color: #fff;
+	cursor: default;
+	background-color: #E44154;
+	border-color: #dfdfdf;
+}
+.pagination .disabled a {
+	color: #999999;
+	cursor: not-allowed;
+	background-color: #f5f5f5;
+	border-color: #dddddd;
+}
+.pagination .disabled a:hover {
+	color: #999999;
+	cursor: not-allowed;
+	background-color: #f5f5f5;
+	border-color: #dddddd;
+}
+.phcolor{
+	color:#727272}
+/*错误页面样式*/
+.error_box{
+	width:100%;
+	margin:0 auto;}
+.error_content{
+	background:#fff;
+	min-height:700px;}
+.error_img{
+	padding-top:30px;}
+.errr_404,.errr_403,.errr_500{
+	display:inline-block;
+	height: 540px;
+    width: 472px;
+	background:url(../images/error.png) no-repeat;
+	}
+.errr_404{
+	background-position: 0 0;
+}
+.errr_403{
+	background-position: -1192px 0;
+}
+.errr_500{
+	background-position: -610px 0;
+}
+.error_tips{
+	margin-top:40px;
+	font-size: 18px;
+}
+.error_tips a{
+	color: #0E9CFE;
+}

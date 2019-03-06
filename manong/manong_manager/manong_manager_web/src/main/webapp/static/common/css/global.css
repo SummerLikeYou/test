@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+/*============================== common ===============================*/
+* {
+	margin: 0;
+	padding: 0;
+	outline:none;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, img, dl, dt, dd, table, th, td, blockquote, fieldset, div, strong, label, em {
+	border: 0 none;
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+}
+body {
+	font-size: 14px;
+	font-family: 'Microsoft YaHei', Arial, Helvetica, sans-serif;
+	/*background-color: #f5f5f5;*/
+}
+input, button {
+	font-family: "微软雅黑";
+	outline:none;
+
+}
+ul, ol, dl {
+	list-style: none outside none;
+}
+input, select {
+	vertical-align: middle
+}
+input:focus{ outline:none; }
+img {
+	border: 0 none;
+	vertical-align: middle;
+	text-align: left;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+	cursor: pointer;
+}
+a:link, a:visited {
+	text-decoration: none;
+}
+a:hover, a:active {
+	text-decoration: none;
+}
+.clearfix {
+	clear: both;
+}
+.pointer {
+	cursor: pointer;
+}
+.clear:after{
+
+　content:".";
+
+　height:0;
+
+　visibility:hidden;
+
+　display:block;
+
+　clear:both;
+
+}

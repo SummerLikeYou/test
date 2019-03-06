@@ -1,0 +1,16 @@
+
+table{
+	margin:0px auto;
+	font-size:14px;
+	color: #000000;
+	border-collapse:collapse;
+	padding:1px;
+}
+table td{
+	border:1px solid #9db6e6;
+	text-align: right;
+	padding:5px;
+}
+
+table th{
+}

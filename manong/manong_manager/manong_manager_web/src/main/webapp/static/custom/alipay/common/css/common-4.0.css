@@ -1,0 +1,1374 @@
+/* CSS Document */
+
+/*有头部和底部的页面需要引入
+ *定义公共头部和底部，不干预其他内容
+*/
+.moduleNewList {
+  list-style: disc !important;
+  list-style-type: disc !important;
+  width: 100%;
+}
+
+.moduleNewList li {
+  height: 21px;
+  line-height: 21px;
+  padding: 3px 0px 3px 12px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  background-image: url(../../index/images/indexBg.png);
+  background-position: 0px -833px;
+  background-repeat: no-repeat;
+}
+
+.moduleNewList li:hover {
+  background-position: 0px -876px;
+}
+
+.moduleNewList li a {
+  font-size: 14px;
+  color: #333;
+}
+
+.moduleNewList li a:hover {
+  color: #29b6f6;
+}
+
+/*页面头部导航                      Start*/
+
+#ry_header {
+  position: relative;
+  background-color: #e0e0e0;
+  z-index: 1000;
+}
+
+/*头部公共样式*/
+
+#ry_nav {
+  position: relative;
+}
+
+#ry_nav .navItem {
+  min-width: 82px;
+  position: relative;
+  margin: 0 10px;
+  height: 28px;
+  line-height: 28px;
+}
+
+#ry_nav .navItem a {
+  text-align: center;
+  display: block;
+  color: #999999;
+  background-color: inherit;
+}
+
+#ry_nav .ry_menuItem a {
+  margin: 10px 0;
+  font-size: 12px;
+  color: #999999 !important;
+}
+
+#ry_nav .ry_menuItem a:hover {
+  color: #29b6f6 !important;
+}
+
+#ry_nav .ry_menuList {
+  display: none;
+  position: absolute;
+  top: 28px;
+  padding-bottom: 10px;
+  color: #666;
+  background-color: #fff !important;
+  border: 1px solid #eee;
+  border-top: none;
+  box-sizing: border-box !important;
+}
+
+/*头部用户名*/
+
+#ry_nav #ry_welcome {
+  margin-left: 0;
+  color: #999999;
+}
+
+#ry_nav #ry_name,
+#ry_nav #ry_serve,
+#ry_nav #ry_navigator {
+  /*overflow: hidden;*/
+  background-image: url("../images/header.png");
+  background-repeat: no-repeat;
+  background-position-x: 68px;
+  background-position-y: 13px;
+}
+
+#ry_nav #ry_name {
+  margin-left: 0px;
+  background-position-x: 108px;
+}
+
+#ry_nav #ry_name:hover {
+  background-color: #fff;
+  background-position-y: -16px;
+  /*overflow: visible;*/
+}
+
+#ry_nav #ry_serve:hover .ry_menuList,
+#ry_nav #ry_navigator:hover .ry_menuList,
+#ry_nav #ry_name:hover .ry_menuList {
+  display: block;
+}
+
+#ry_nav li#ry_name:hover a {
+  color: #333;
+}
+
+#ry_nav #ry_name #ry_userMenu #ry_userName {
+  width: 102px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-right: 20px;
+}
+
+#ry_nav #ry_name #ry_userMenu .ry_menuList {
+  left: -1px;
+  width: 100%;
+}
+
+/*头部信息提示、登录注册*/
+
+#ry_nav #ry_msg a span#msgNum {
+  position: absolute;
+  top: 1px;
+  right: 10px;
+  color: #fff !important;
+  background-color: #f00;
+  border-radius: 3px;
+  padding: 0 2px;
+  line-height: 16px;
+}
+
+#ry_nav #ry_msg a:hover,
+#ry_nav #ry_login a:hover,
+#ry_nav #ry_regist a:hover {
+  color: #29b6f6 !important;
+}
+
+#ry_nav #ry_login {
+  margin-right: 0;
+}
+
+#ry_nav #ry_regist {
+  margin-left: 0;
+}
+
+#ry_nav #ry_login,
+#ry_nav #ry_regist {
+  width: 50px !important;
+  min-width: 50px !important;
+}
+
+#ry_nav #ry_weixin {
+  position: relative;
+  width: 20px !important;
+  min-width: 20px !important;
+  margin-right: 0;
+  background: url(../images/weixin-icon.png) 0 center no-repeat;
+}
+
+#ry_nav #ry_weixin:hover {
+  background: url(../images/weixin-icon.png) -28px center no-repeat;
+}
+
+#ry_nav #ry_weixin > img {
+  display: none;
+  position: absolute;
+  top: 34px;
+  right: 0;
+  width: 84px;
+  height: 84px;
+  border: 1px solid #e0e0e0;
+  padding: 5px;
+  background-color: #fff;
+}
+
+#ry_nav #ry_weixin:hover > img {
+  display: block;
+}
+
+/*客服服务*/
+
+#ry_nav #ry_serve:hover,
+#ry_nav #ry_navigator:hover {
+  background-color: #fff;
+  background-position-y: -16px;
+  /*overflow: visible;*/
+}
+
+#ry_nav li#ry_serve:hover a {
+  color: #333;
+}
+
+#ry_nav #ry_serve #ry_serveMenu .ry_menuList {
+  width: 100%;
+}
+
+/*网站导航*/
+
+#ry_nav #ry_navigator {
+  margin-right: 0px;
+}
+
+#ry_nav li#ry_navigator:hover a {
+  color: #333;
+}
+
+#ry_nav #ry_navigator #ry_navigatorMenu {
+  position: relative;
+}
+
+#ry_nav #ry_navigator #ry_navigatorMenu .ry_menuList {
+  right: 0px;
+  width: 512px;
+}
+
+#ry_nav #ry_navigator #ry_navigatorMenu .ry_menuItem {
+  /*width: 76px;*/
+  padding: 0 10px;
+  margin-top: 10px;
+}
+
+#ry_nav #ry_navigator #ry_navigatorMenu .floatLeft {
+  float: none;
+  zoom: 1; /*IE兼容*/
+  display: inline-block;
+  *display: inline; /*IE兼容*/
+  vertical-align: top; /*高度统一从top对齐*/
+}
+
+#ry_nav #ry_navigator #ry_navigatorMenu .ry_menuItem a {
+  margin: 4px 0;
+  text-align: left;
+}
+
+#ry_nav #ry_navigator #ry_navigatorMenu .ry_menuItem span {
+  display: block;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+/*页面头部导航                      End*/
+
+/*页面底部 Start*/
+
+#ry_footer {
+  position: relative;
+  height: 324px;
+  font-size: 14px;
+  background-color: #282828;
+  border-top: 1px solid #000000;
+}
+
+#ry_footer .ry_container {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  margin-left: -600px;
+  height: 233px;
+}
+
+#ry_footer .footerLine {
+  padding-top: 0px;
+  height: 102px;
+  width: 1px;
+  overflow: hidden;
+  margin: 47px 20px;
+  background-color: #30323f;
+}
+
+#ry_footer p {
+  position: absolute;
+  top: 273px;
+  left: 0px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  color: #949494;
+  font-size: 14px;
+  text-align: center;
+  background-color: #434343;
+}
+
+#ry_footer #footerLeft {
+  width: 225px;
+  padding-top: 104px;
+  background-image: url(../images/logo.png);
+  background-position: 1px 9px;
+  background-repeat: no-repeat;
+}
+
+#ry_footer #footerLeft span {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #d8d8d8;
+  line-height: 40px;
+  overflow: hidden;
+}
+
+#ry_footer #footerLeft span i {
+  font-style: normal;
+  display: block;
+  font-weight: 500;
+  float: left;
+  width: 25%;
+  text-align: center;
+  overflow: hidden;
+}
+
+#ry_footer #footerLeft span i.l {
+  text-align: left;
+}
+
+#ry_footer #footerLeft span i.r {
+  text-align: right;
+}
+
+#ry_footer #footerMid {
+  padding-top: 10px;
+}
+
+#ry_footer #footerMid p {
+  padding-top: 36px;
+}
+
+#ry_footer #footerMid dl {
+  margin-right: 40px;
+}
+
+#ry_footer #footerMid dl.last-child {
+  margin-right: 0px;
+}
+
+#ry_footer #footerMid dt {
+  font-size: 15px;
+  padding-bottom: 8px;
+  color: #d8d8d8;
+}
+
+#ry_footer #footerMid dd {
+  margin: 5px 0;
+}
+
+#ry_footer #footerMid dd a {
+  color: #9ea4ba;
+  font-size: 13px;
+}
+
+#ry_footer #footerMid dd a:hover {
+  color: #fff;
+}
+
+#ry_footer #footerRight {
+  padding-top: 10px;
+}
+
+#ry_footer #footerRight #footerIcon {
+}
+
+#ry_footer #footerRight #footerIcon div {
+  width: 82px;
+}
+
+#ry_footer #footerRight #footerIcon a {
+  position: relative;
+  display: block;
+  width: 82px;
+  height: 82px;
+  overflow: hidden;
+  background-image: url("../images/footerBg.png");
+  background-repeat: no-repeat;
+  background-position-x: 0px;
+  background-position-y: 0px;
+}
+
+#ry_footer #footerRight #footerIcon a img {
+  position: absolute;
+  top: -123px;
+  left: -18px;
+  width: 110px;
+  height: 110px;
+  z-index: 999;
+}
+
+#ry_footer #footerRight #footerIcon a:hover {
+  overflow: visible;
+  background-position-y: -92px;
+}
+
+#ry_footer #footerRight #footerIcon div#wx {
+  margin: 0 20px;
+}
+
+#ry_footer #footerRight #footerIcon div#wx a {
+  background-position-x: -101px;
+}
+
+#ry_footer #footerRight #footerIcon div#zx a {
+  background-position-x: -203px;
+}
+
+#ry_footer #footerRight #footerIcon span {
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+  color: #d8d8d8;
+  font-size: 15px;
+}
+
+#ry_footer #footerRight em {
+  display: block;
+  color: #29b6f6;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+  padding: 8px 0;
+}
+
+#ry_footer #footerRight i {
+  display: block;
+  color: #a0a0a0;
+  font-style: normal;
+  font-size: 13px;
+  text-align: center;
+}
+
+/*页面底部 End*/
+
+/*页面搜索服务   Start*/
+
+#searchBar {
+  float: left;
+  height: 60px;
+  margin-left: 23px;
+}
+
+/*搜索框*/
+
+#searchBar #searchWrap {
+  width: 198px;
+  padding-top: 14px;
+}
+
+#searchBar #searchWrap form {
+  border: 1px solid #d2d2d2;
+  padding-left: 16px;
+  border-radius: 100px;
+}
+
+#searchBar #searchWrap form #searchTxt {
+  width: 144px;
+  height: 36px;
+  line-height: 36px;
+  border: none;
+  font-size: 12px;
+  background-color: #fff;
+  outline-style: none;
+}
+
+#searchBar #searchWrap form #searchSubmit {
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  border: none;
+  font-size: 13px;
+  background-color: #fff;
+  color: #fff;
+  overflow: hidden;
+  background-image: url(../images/footerBg.png);
+  background-repeat: no-repeat;
+  background-position: -260px -245px;
+  border-radius: 100px;
+}
+
+#searchBar #searchWrap div {
+  height: 16px;
+}
+
+#searchBar #searchWrap div a {
+  margin: 0 10px;
+  color: #515151;
+}
+
+#searchBar #searchWrap div a:first-child {
+  margin-left: 0;
+}
+
+#searchBar #searchWrap div a:hover {
+  color: #29b6f6;
+  text-decoration: underline;
+}
+
+/*移动服务*/
+
+#appServe {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#appServe li {
+  float: left;
+  width: 45px;
+
+}
+
+#appServe li#appIcon {
+  width: 48px;
+  margin-right: 20px;
+}
+
+#appServe li a {
+  position: relative;
+  display: block;
+  width: 45px;
+  height: 45px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-image: url("../../index/images/indexBg.png");
+  background-repeat: no-repeat;
+  background-position: -585px -485px;
+}
+
+#appServe li a:hover {
+  overflow: visible;
+}
+
+#appServe li a img {
+  position: absolute;
+  top: 76px;
+  left: -28px;
+  width: 110px;
+  height: 110px;
+  z-index: 999;
+}
+
+/*移动app*/
+
+#appServe li#appIcon a:hover {
+  background-position-x: -639px;
+}
+
+/*微信*/
+
+#appServe li#wxIcon a {
+  background-position-x: -693px;
+}
+
+#appServe li#wxIcon a:hover {
+  background-position-x: -750px;
+}
+
+/*登录*/
+
+#appServe li#logoIcon a {
+  background-position-x: 0px;
+  background-position-y: 0px;
+}
+
+#appServe li#logoIcon a:hover {
+  background-position-x: 0px;
+  background-position-y: 0px;
+}
+
+/*注册*/
+
+#appServe li#registIcon a {
+  background-position-x: 0px;
+  background-position-y: 0px;
+}
+
+#appServe li#registIcon a:hover {
+  background-position-x: 0px;
+  background-position-y: 0px;
+}
+
+/*移动服务名称*/
+
+#appServe li span {
+  display: block;
+  padding-top: 6px;
+  text-align: center;
+  font-size: 12px;
+  color: #333;
+}
+
+/*页面搜索服务  End*/
+
+/*网页菜单  Start*/
+
+#webMenu {
+  background-color: #fff;
+  font-family: "microsoft yahei" !important;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+#webMenu .ry_container .level-menu {
+  position: relative;
+  float: left;
+  height: 60px;
+  width: 111px;
+  line-height: 60px;
+  font-size: 16px;
+  text-align: center;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+/*人与logo*/
+#webMenu .ry_container #ry_logo {
+  float: left;
+  margin-right: 60px;
+  height: 60px;
+  width: 142px;
+  overflow: hidden;
+  background: url(../images/ry-logo.png) 0 center no-repeat;
+}
+
+#webMenu .ry_container .linkActive > a {
+  color: #29b6f6 !important;
+
+}
+
+#webMenu .ry_container .level-menu:hover {
+  overflow: visible;
+}
+
+#webMenu .ry_container .level-menu .level-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  line-height: 62px;
+  color: #333333;
+  z-index: 550;
+}
+
+#webMenu .ry_container .linkActive .level-btn:after {
+  position: absolute;
+  display: block;
+  content: '';
+  width: 5px;
+  height: 5px;
+  background-color: #29b6f6;
+  top: 50%;
+  margin-top: -2px;
+  left: 6px;
+
+}
+
+#webMenu .ry_container .level-menu:hover > .level-btn {
+  font-weight: 600;
+}
+
+#webMenu .ry_container .level-menu .level-list {
+  position: relative;
+  padding-top: 49px;
+  padding-bottom: 10px;
+  background-color: inherit;
+  text-align: center;
+  line-height: 38px;
+  z-index: 500;
+  border: 1px solid #fff;
+  border-radius: 3px;
+}
+
+#webMenu .ry_container .level-menu:hover .level-list {
+  border-color: #ebebeb;
+}
+
+#webMenu .ry_container .level-menu .level-list li {
+  height: 38px;
+}
+
+#webMenu .ry_container .level-menu .level-list a {
+  display: block;
+  color: #333333;
+  font-size: 14px;
+}
+
+#webMenu .ry_container .level-menu .level-list a:hover {
+  color: #29b6f6;
+}
+
+/*#webMenu table td .level-btn:hover {*/
+/*background-color: #50c8ff;*/
+/*}*/
+
+/*#webMenu table td .level-btn .level-list {*/
+/*position: absolute;*/
+/*left: 0;*/
+/*right: 0;*/
+/*top: 62px;*/
+/*width: 82px;*/
+/*height: 62px;*/
+/*line-height: 62px;*/
+/*color: #fff;*/
+/*font-size: 16px;*/
+/*text-align: left;*/
+/*}*/
+
+#ry_visitTrace {
+  padding: 15px 0;
+}
+
+#ry_visitTrace li {
+  float: left;
+}
+
+#ry_visitTrace li span,
+#ry_visitTrace li a {
+  display: block;
+  float: left;
+  font-size: 14px;
+  color: #999;
+}
+
+#ry_visitTrace li a:hover {
+  text-decoration: underline;
+}
+
+#ry_visitTrace li:first-child a {
+  color: #29b6f6;
+  text-decoration: none;
+}
+
+#ry_visitTrace li:nth-child(2) a {
+  color: #29b6f6;
+}
+
+#ry_visitTrace li:nth-child(3) a {
+  color: #29b6f6;
+}
+
+#ry_visitTrace li:last-child a {
+  text-decoration: none;
+  color: #999;
+}
+
+#ry_visitTrace li:last-child span {
+  display: none !important;
+}
+
+#ry_visitTrace li span {
+  width: 22px;
+  text-align: right;
+}
+
+/*网页菜单  End*/
+
+/*banner   Start*/
+
+#bannerWrap {
+  position: relative;
+  min-width: 1200px;
+  max-width: 1920px;
+  height: 330px;
+  margin: 0 auto;
+}
+
+#bannerWrap #bannerInner {
+  height: 100%;
+}
+
+#bannerWrap #bannerInner li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+#bannerWrap #bannerInner li:first-child {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+#bannerWrap #bannerInner li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  cursor: default;
+}
+
+#bannerWrap #bannerInner li a img {
+  width: 1920px;
+  height: 100%;
+  position: relative;
+  top: 0;
+  left: 50%;
+  margin-left: -960px;
+}
+
+#bannerWrap #bannerIdx {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  overflow: hidden;
+  z-index: 120;
+}
+
+#bannerWrap #bannerIdx li {
+  width: 36px;
+  height: 5px;
+  background-color: #0a537c;
+  float: left;
+  margin: 0 1px;
+  cursor: pointer;
+}
+
+#bannerWrap #bannerIdx li.idxActive {
+  background-color: #ffa200;
+}
+
+/*banner   End*/
+
+/*页面模块头部标题    Start*/
+
+.commonTitle {
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+}
+
+.commonTitle div.commonTitleTxt {
+  height: 38px;
+  line-height: 38px;
+  width: 176px;
+  padding-left: 12px;
+  background-color: #29b6f6;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.commonTitle a.commonTitleLink {
+  display: block;
+  height: 38px;
+  line-height: 38px;
+  color: #bdbdbd;
+  font-size: 12px;
+}
+
+.commonTitle a.commonTitleLink:hover {
+  color: #f00;
+  text-decoration: underline;
+}
+
+/*页面模块头部标题    End*/
+
+/*登录  Start*/
+
+#ry_popu #ry_login_popu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -210px;
+  margin-top: -203px;
+  width: 420px;
+  background-color: #fff;
+  border-radius: 3px;
+  /*双击选字关闭*/
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.log_row {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 14px 0;
+  overflow: hidden;
+}
+
+.reg_row {
+  float: left;
+  width: 372px;
+  background-color: #FFF;
+  padding: 0 24px;
+}
+
+.reg_row .title_txt {
+  border-bottom: 2px solid #ccc;
+}
+
+.reg_row .title_txt li {
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 60px;
+}
+
+.reg_row .title_txt li a {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  line-height: 60px;
+  font-size: 18px;
+  color: #333333;
+  text-align: center;
+  border-bottom: 2px solid #ccc;
+}
+
+.reg_row .title_txt li a:hover {
+  text-decoration: none;
+}
+
+.reg_row .title_txt li a.selected {
+  border-bottom: 2px solid red;
+}
+
+.reg_row .login_form {
+  float: left;
+  width: 375px;
+  height: 294px;
+  /*padding-bottom: 50px;*/
+  position: relative;
+}
+
+.reg_row .login_form .login_cell {
+  overflow: hidden;
+  height: 58px;
+  margin: 25px auto 0;
+}
+
+.reg_row .login_form .login_cell label {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  float: left;
+  font-size: 14px;
+}
+
+.reg_row .login_form .login_cell input {
+  float: left;
+  font-size: 14px;
+  height: 40px;
+  border: 1px solid #ddd;
+  outline: none;
+  line-height: 40px;
+  margin-left: 20px;
+  width: 288px;
+  padding: 0 8px;
+}
+
+.reg_row .login_form .login_cell span {
+  display: none;
+  float: left;
+  width: 100%;
+  color: #feac05;
+  font-size: 12px;
+  text-align: right;
+}
+
+.reg_row .login_form .login_cell_short input {
+  width: 134px;
+}
+
+.reg_row .login_form .login_cell_short a {
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 3px;
+  text-align: center;
+  margin-left: 20px;
+  width: 134px;
+  background-color: #2d91d1;
+}
+
+.reg_row .login_form .login_cell_short a:hover {
+  background-color: #288CCC;
+}
+
+.reg_row .login_form .error input {
+  border: 1px solid #feac05;
+}
+
+.reg_row .login_form .error span {
+  display: block;
+}
+
+.reg_row .login_form .reg_checkboxline {
+  /*padding: 15px 0 5px;*/
+  text-align: right;
+}
+
+.reg_row .login_form .reg_checkboxline input {
+  float: left;
+  height: 13px;
+  width: 13px;
+  cursor: pointer;
+  margin-top: 2px;
+}
+
+.reg_row .login_form .reg_checkboxline label {
+  float: left;
+  /*height: 16px;*/
+  font-size: 13px;
+  /*line-height: 11px;*/
+  padding-left: 10px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+}
+
+.reg_row .login_form .reg_checkboxline a {
+  color: #2E92D0;
+  font-size: 14px;
+}
+
+.reg_row .login_form input.btn_primary {
+  background-color: #2d91d1 !important;
+  color: #fff !important;
+  cursor: pointer !important;
+  display: inline-block !important;
+  letter-spacing: 1px !important;
+  text-align: center !important;
+  vertical-align: middle !important;
+  width: 348px !important; /*原先100%，为了调和bootstrap改成348px*/
+  border: none !important;
+  font-size: 16px !important;
+  border-radius: 3px !important;
+  height: 44px !important;
+  line-height: 44px !important;
+  outline: none !important;
+  margin-left: 0px !important;
+  margin-top: 20px !important;
+  padding: 0 !important;
+}
+
+.reg_row .login_form input.btn_primary:hover {
+  background-color: #288ccc;
+}
+
+.reg_row .login_form .login_bar {
+  height: 45px;
+  float: left;
+  line-height: 45px;
+  text-align: left;
+  color: #666666;
+}
+
+.reg_row .login_form .login_bar a {
+  padding-left: 20px;
+  color: #2d91d1;
+}
+
+.reg_close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 22px;
+  height: 22px;
+  background-color: #333;
+  background-image: url(../images/close.png);
+  background-position: -55px -4px;
+  background-repeat: no-repeat;
+  border-radius: 100px;
+}
+
+.reg_close:hover {
+  background-color: #333;
+  background-position: 0px -4px;
+}
+
+/*登录  End*/
+
+/*侧边栏   Start*/
+
+#ry_sidebar {
+  position: fixed;
+  top: 50%;
+  left: 0px;
+  width: 40px;
+  height: 204px;
+  z-index: 1916;
+}
+
+#ry_sidebar li {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-top: 1px solid #fff;
+  cursor: pointer;
+  background-color: #c1c1c1;
+  background-image: url(../images/foot03/sidebar.png);
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+#ry_sidebar li:hover {
+  background-color: #29b6f6;
+  overflow: visible;
+}
+
+#ry_sidebar li a {
+  display: block;
+  color: #fff;
+  font-size: 16px;
+  position: absolute;
+  top: 0;
+  left: -82px;
+  width: 82px;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  background-color: #29b6f6;
+}
+
+#ry_sidebar li.ry_fb {
+  border-top: none;
+  background-position: 4px 0px;
+}
+
+#ry_sidebar li.ry_service {
+  background-position: -1px -33px;
+}
+
+#ry_sidebar li.ry_qq {
+  background-position: -1px -66px;
+}
+
+#ry_sidebar li.ry_qrcode {
+  background-position: 2px -98px;
+}
+
+#ry_sidebar li.ry_go_top {
+  background-color: #7e7e7e;
+  background-position: -2px -127px;
+}
+
+#ry_sidebar li.ry_go_top:hover {
+  background-color: #f7425b;
+}
+
+#ry_sidebar li.ry_qrcode img {
+  position: absolute;
+  bottom: -1px;
+  left: -82px;
+  width: 78px;
+  height: 78px;
+  border: 1px solid #c1c1c1;
+}
+
+/*侧边栏   End*/
+
+.my-select {
+  box-sizing: border-box !important;
+  z-index: 1000;
+}
+
+.my-select > .selector {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 100%;
+  font-size: inherit;
+  line-height: inherit;
+  overflow: hidden;
+  z-index: 1000;
+  box-sizing: border-box !important;
+}
+
+.my-select > .unfold {
+  overflow: visible;
+}
+
+.my-select > .selector > .select-hide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 5px;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.my-select > .selector > .select-toggle {
+  position: relative;
+  display: block;
+  min-width: 0px;
+  width: 100%;
+  height: 100%;
+  line-height: inherit;
+  color: #999;
+  font-size: inherit;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  cursor: pointer;
+  padding-right: 23px;
+  text-align: center;
+  z-index: 2000;
+  background-color: #fff;
+  box-sizing: border-box !important;
+}
+
+.my-select > .selector > .select-toggle:before {
+  position: absolute;
+  content: '';
+  display: block;
+  right: 8px;
+  top: 50%;
+  margin-top: -2px;
+  border-color: #333;
+  border-style: solid;
+  border-width: 6px;
+  border-left-color: #fff;
+  border-right-color: #fff;
+  border-bottom-color: #fff;
+  z-index: 2000;
+}
+
+.my-select > .selector > .select-toggle:after {
+  position: absolute;
+  content: '';
+  display: block;
+  right: 6px;
+  top: 50%;
+  margin-top: -5px;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 8px;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  z-index: 2001;
+}
+
+.my-select > .unfold > .select-toggle:before {
+  position: absolute;
+  content: '';
+  display: block;
+  right: 5px;
+  top: 50%;
+  margin-top: -13px;
+  border-color: #333;
+  border-style: solid;
+  border-width: 8px;
+  border-left-color: #fff;
+  border-right-color: #fff;
+  border-top-color: #fff;
+  z-index: 2000;
+}
+
+.my-select > .unfold > .select-toggle:after {
+  position: absolute;
+  content: '';
+  display: block;
+  right: -1px;
+  top: 50%;
+  margin-top: -17px;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 14px;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  z-index: 2001;
+}
+
+.my-select > .selector > .select-list {
+  position: relative;
+  top: 0;
+  left: -1px;
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+  width: 100%;
+  z-index: 100;
+  max-height: 192px;
+  font-size: inherit;
+  overflow-x: hidden;
+}
+
+.my-select > .selector > .select-toggle.blur {
+  color: #333;
+}
+
+.my-select > .selector > .select-list > div {
+  font-size: inherit;
+}
+
+.my-select > .selector > .select-list > div > ul {
+  font-size: inherit;
+}
+
+.my-select > .selector > .select-list > div > ul > li {
+  font-size: inherit;
+  color: #666;
+  padding: 6px 0;
+  line-height: 20px;
+  cursor: pointer;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  text-align: center;
+}
+
+.my-select > .selector > .select-list > div > ul > li:hover {
+  background-color: #e9e9e9;
+}
+
+/*按钮*/
+.ry_btn {
+  width: 160px;
+  height: 40px;
+  background-color: #50c8ff;
+  border-radius: 100px;
+  font-size: 16px;
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+  font-family: "microsoft yahei" !important;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.ry_btn:hover {
+  background-color: #29b6f6;
+}
+
+.ry_btn[disabled] {
+  background-color: #ccc;
+}
+
+.ry_btn[disabled]:hover {
+  background-color: #ccc;
+}
+
+/*.ry_btn.back-last{*/
+  /*background-color: #ccc;*/
+  /*color: #333*/
+/*}*/
+
+/*.ry_btn.back-last:hover {*/
+  /*background-color: #999;*/
+  /*color: #fff;*/
+/*}*/
+
+

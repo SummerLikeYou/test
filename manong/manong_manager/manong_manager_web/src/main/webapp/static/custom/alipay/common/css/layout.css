@@ -1,0 +1,2254 @@
+/* CSS Document */
+
+.container {
+  width: 100%;
+  /*background: #f1f1f1;*/
+  overflow: hidden;
+  min-height: 600px;
+}
+
+.container_newcourse {
+  width: 100%;
+  background: #f1f1f1;
+  overflow: hidden;
+  min-height: 450px;
+}
+
+.content_width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/*.relative {
+	position: relative;
+}
+.absolute {
+	position: absolute;
+}*/
+
+/*==============================footer=============================*/
+
+.footer {
+  background: #333333;
+  width: 100%;
+  height: 160px;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  clear: both;
+}
+
+.footer .footer_nav {
+  line-height: 18px;
+  font-size: 14px;
+  padding: 20px 0;
+}
+
+.footer .footer_nav a:link,
+.footer .footer_nav a:visited {
+  color: #999;
+  text-align: center;
+  padding: 0 15px;
+}
+
+.footer .footer_nav a:hover {
+  color: #fff;
+}
+
+.footer .footer_copyright {
+  color: #999
+}
+
+/*-------分页------*/
+
+.page_bg {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  clear: both;
+}
+
+.pagination {
+  width: auto;
+  color: #999;
+  margin: 15px auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+.pagination ul {
+  margin: 0 auto;
+}
+
+.pagination li {
+  display: inline;
+  list-style-type: none;
+}
+
+.page_bg .pagination a {
+  display: inline-block;
+  margin: 0 2px;
+  padding: 6px 15px;
+  border: 1px solid #dfdfdf;
+  color: #B0B0B0;
+  background: #fff;
+}
+
+.page_bg .pagination a:hover {
+  background: #2E92D0;
+  color: #fff;
+}
+
+.pagination .active a {
+  z-index: 2;
+  color: #fff;
+  cursor: default;
+  background-color: #2E92D0;
+  border-color: #dfdfdf;
+}
+
+.pagination .disabled a {
+  color: #999999;
+  cursor: not-allowed;
+  background-color: #f5f5f5;
+  border-color: #dddddd;
+}
+
+.pagination .disabled a:hover {
+  color: #999999;
+  cursor: not-allowed;
+  background-color: #f5f5f5;
+  border-color: #dddddd;
+}
+
+/*搜索结果开始*/
+
+.result_list {
+  width: 890px;
+  float: left;
+  margin-top: 20px;
+  background: #fff;
+  margin-bottom: 20px;
+}
+
+.result_iteam_box {
+  border-bottom: 1px dashed #F5F5F5;
+}
+
+.iteam_til {
+  padding: 10px 20px 10px;
+}
+
+.iteam_til a.ask_icon {
+  font-size: 14px;
+  color: #333333;
+  display: block;
+  padding-left: 20px;
+  width: 800px;
+  line-height: 36px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.iteam_til a:hover,
+.iteam_content a:hover {
+  color: #0092C7;
+}
+
+.mask {
+  color: #F2572C;
+}
+
+.iteam_content {
+  padding-left: 60px;
+  line-height: 22px;
+  width: 800px;
+  padding-bottom: 20px;
+}
+
+.iteam_content a {
+  color: #666666;
+  font-size: 14px;
+}
+
+.hot_search_icon {
+  font-style: normal;
+  display: inline-block;
+  background: url(../images/onlinetax.png) no-repeat -78px -1376px;
+  width: 22px;
+  height: 22px;
+  padding-left: 12px;
+  vertical-align: middle;
+}
+
+/*搜索结果结束*/
+
+/*搜索结果详情页开始*/
+
+.result_content {
+  padding: 20px;
+}
+
+.result_right {
+  width: 890px;
+  float: left;
+}
+
+.result_til {
+  font-size: 20px;
+  color: #4C6471;
+  font-weight: normal;
+}
+
+.result_content p {
+  font-size: 14px;
+  padding-top: 20px;
+  text-indent: 20px;
+  line-height: 26px;
+  color: #333333
+}
+
+.result_content form {
+  overflow: hidden;
+}
+
+.result_content .ask_til {
+  font-size: 14px;
+  color: #333333;
+  float: left;
+  width: 100%;
+}
+
+.result_content form label {
+  display: block;
+  float: left;
+  margin-right: 20px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  padding: 12px 0;
+  height: 16px;
+  line-height: 16px;
+  font-size: 12px;
+}
+
+.result_content form label input {
+  margin-right: 10px;
+  width: 14px;
+  height: 14px;
+}
+
+.result_content form #select_box span {
+  float: left;
+  margin-right: 20px;
+}
+
+.right_radio {
+  margin-left: 32px;
+}
+
+.help_result {
+  float: left;
+  width: 100%;
+  overflow: hidden;
+}
+
+.sub_box {
+  float: left;
+  line-height: 40px;
+  background: #FDE9E3;
+  border: 1px solid #F2572D;
+  color: #F2572C;
+  text-align: center;
+  position: relative;
+  border-radius: 4px;
+  padding: 0 30px;
+}
+
+.result_content form .sub_box .btn_close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: url(../images/onlinetax.png) no-repeat -85px -1422px;
+  width: 22px;
+  height: 22px;
+}
+
+.result_content form textarea {
+  width: 100%;
+  border: 1px solid #999;
+  line-height: 20px;
+  font-size: 14px;
+  text-align: left;
+  color: #333;
+}
+
+.result_content .help_result .tijiao {
+  text-align: left;
+  padding: 10px 0;
+}
+
+.result_content .help_result .tijiao input {
+  padding: 3px 8px;
+  cursor: pointer;
+  width: 88px;
+  font-size: 14px;
+}
+
+/*搜索结果详情页结束*/
+
+/*-------------------------所有右边列表的的共用样式开始--------------------------------*/
+
+/*阅读排行开始*/
+
+.operation_list_right {
+  margin-top: 20px;
+  width: 250px;
+  float: left;
+  margin-left: 20px;
+  display: inline;
+}
+
+.read_til {
+  line-height: 50px;
+  background: #2E92D0;
+  margin-bottom: 20px;
+}
+
+.read_til h3 {
+  color: #fff;
+  font-size: 18px;
+  padding-left: 10px;
+  font-weight: normal;
+}
+
+.read_num {
+  background: #fff;
+}
+
+.read_num li a {
+  display: inline-block;
+  font-size: 14px;
+  color: #868686;
+  overflow: hidden;
+  height: 30px;
+  line-height: 30px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 186px;
+}
+
+.read_icon {
+  font-style: normal;
+  display: inline-block;
+  background: url(../images/onlinetax.png) no-repeat 0 -203px;
+  width: 22px;
+  height: 22px;
+  padding-left: 12px;
+  vertical-align: middle;
+}
+
+.read_til ul li {
+  /*height: 32px;*/
+  line-height: 40px;
+  padding: 5px 12px;
+  width: 226px;
+  border-bottom: 1px dotted #ccc;
+  height: 32px;
+}
+
+.read_til ul li.last {
+  border-bottom: none;
+}
+
+.read_til .number_1,
+.read_til .number_2,
+.read_til .number_3,
+.read_til .number_4,
+.read_til .number_5,
+.read_til .number_6,
+.read_til .number_7,
+.read_til .number_8,
+.read_til .number_9,
+.read_til .number_10,
+.read_til .radio {
+  background: url("../images/onlinetax.png") no-repeat 0 -238px;
+  display: inline-block;
+  height: 29px;
+  width: 30px;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+}
+
+.read_til .number_2 {
+  background-position: 0 -290px;
+}
+
+.read_til .number_3 {
+  background-position: 0 -340px;
+}
+
+.read_til .number_4 {
+  background-position: 8px -387px;
+}
+
+.read_til .number_5 {
+  background-position: 8px -433px;
+}
+
+.read_til .number_6 {
+  background-position: 8px -483px;
+}
+
+.read_til .number_7 {
+  background-position: 8px -531px;
+}
+
+.read_til .number_8 {
+  background-position: 8px -581px;
+}
+
+.read_til .number_9 {
+  background-position: 8px -626px;
+}
+
+.read_til .number_10 {
+  background-position: 5px -673px;
+}
+
+.read_til .radio {
+  background-position: 10px 10px;
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  vertical-align: baseline;
+}
+
+.read_til ul li a {
+  font-size: 14px;
+  color: #666666;
+}
+
+.read_til ul li a:hover {
+  color: #2E92D0;
+  text-decoration: underline;
+}
+
+/*-------------------------所有右边列表的的共用样式结束--------------------------------*/
+
+/*举报样式开始*/
+
+.report_box {
+  background: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.report_til {
+  margin: 0 auto;
+  width: 1100px;
+  border-bottom: 2px solid #0092c7;
+}
+
+.report_til h2 {
+  font-size: 24px;
+  font-weight: normal;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.report_content {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.report_iteam {
+  line-height: 30px;
+  font-size: 14px;
+  margin: 25px 0;
+  overflow: hidden;
+}
+
+.report_lable {
+  width: 120px;
+  float: left;
+  text-align: right;
+}
+
+.report_r {
+  width: 480px;
+  float: left;
+}
+
+.report_r .report_textarea {
+  width: 478px;
+  border: 1px solid #dddddd;
+  color: #333;
+  font-size: 16px;
+  outline: 0 none;
+  overflow: hidden;
+  resize: none;
+  height: 100px;
+  background: #fff;
+  border-radius: 4px;
+  text-align: left;
+}
+
+.report_input {
+  width: 254px;
+  border: 1px solid #dddddd;
+  color: #333;
+  font-size: 16px;
+  height: 40px;
+  background: #fff;
+  border-radius: 4px;
+  padding-left: 10px;
+}
+
+.sumbit_btn,
+.cancel_btn {
+  width: 80px;
+  height: 40px;
+  background: #2E92D0;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sumbit_btn {
+  margin-right: 30px;
+}
+
+.cancel_btn {
+  margin-left: 30px;
+}
+
+.btn_box {
+  width: 226px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+/*举报样式结束*/
+
+/*意见反馈开始*/
+
+.feedback_btn {
+  width: 180px;
+  height: 40px;
+  background: #2E92D0;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.feedback_btn_box {
+  width: 354px;
+}
+
+/*意见反馈结束*/
+
+/*分类导航开始*/
+
+.classic_bg {
+  background: #FFF;
+  min-height: 500px;
+  _height: 500px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+/*详情页分类*/
+
+.iteam_list {
+  overflow: hidden;
+}
+
+.iteam {
+  float: left;
+  overflow: hidden;
+  /*padding: 0 56px;*/
+  width: 380px;
+}
+
+.iteam_img {
+  width: 100px;
+  height: 100px;
+  float: left;
+  /*padding-top: 5px;*/
+  text-align: center;
+}
+
+.iteam_text {
+  /*width: 260px;*/
+  float: left;
+  padding-left: 13px;
+}
+
+.iteam_text h3 {
+  font-size: 22px;
+  font-weight: normal;
+  /*padding-bottom: 10px;*/
+  padding-top: 10px;
+  line-height: 50px;
+}
+
+.iteam_text p {
+  color: #666;
+  font-size: 14px;
+  padding-bottom: 7px;
+}
+
+.iteam_text span.more {
+  font-size: 12px;
+  padding-left: 70px;
+  line-height: 50px;
+}
+
+.iteam_text span.more a {
+  color: #999
+}
+
+.iteam_text span.more a:hover {
+  color: #2e92d0;
+}
+
+.iteam_cont {
+  padding-top: 15px;
+  width: 100%;
+}
+
+.iteam_text .blue {
+  color: #2fb0de;
+}
+
+.iteam_text .red {
+  color: #ed5565;
+}
+
+.iteam_text .green {
+  color: #7db41a;
+}
+
+.iteam_info {
+  width: 180px;
+}
+
+.iteam_cont ul li.dot {
+  width: 8px;
+  padding-left: 10px;
+}
+
+.iteam_cont ul li.bluedot {
+  background: url(../images/onlinetax.png) no-repeat -993px 17px;
+}
+
+.iteam_cont ul li.reddot {
+  background: url(../images/onlinetax.png) no-repeat -993px -32px;
+}
+
+.iteam_cont ul li.greendot {
+  background: url(../images/onlinetax.png) no-repeat -993px -80px;
+}
+
+.iteam_cont ul li.bluedot a:hover {
+  color: #21BBF7;
+}
+
+.iteam_cont ul li.reddot a:hover {
+  color: #ED5667;
+}
+
+.iteam_cont ul li.greendot a:hover {
+  color: #7DB41B;
+}
+
+.iteam_cont a {
+  display: block;
+  font-size: 14px;
+  color: #666;
+  line-height: 38px;
+  width: 290px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.iteam_cont a:hover {
+  color: #db4453;
+}
+
+/*分类导航结束*/
+
+/*地税入口开始*/
+
+.local_content_box {
+  overflow: hidden;
+  background: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.local_tax_left {
+  width: 310px;
+  float: left;
+  background: #e4ebf5;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.local_tax_right {
+  width: 890px;
+  float: left;
+}
+
+.img_box {
+  width: 146px;
+  margin: 0 auto;
+}
+
+.local_til {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.local_til h2 {
+  font-size: 18px;
+  font-weight: normal;
+  color: #2d92d1;
+}
+
+.local_content {
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #666666;
+}
+
+.lacal_list {
+  width: 290px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.lacal_list ul li {
+  float: left;
+}
+
+.lacal_list ul li a {
+  background: #fff;
+  display: block;
+  float: left;
+  width: 132px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 20px;
+  border: 1px solid #2d92d1;
+  margin-left: 10px;
+  text-align: center;
+  color: #333333;
+  margin-top: 10px;
+}
+
+.lacal_list ul li a:hover {
+  background: #2d92d1;
+  color: #fff;
+}
+
+.arr_icon {
+  background: url("../images/arr_icon.png") no-repeat scroll 0 0;
+  height: 59px;
+  left: 310px;
+  position: absolute;
+  top: 172px;
+  width: 73px;
+}
+
+/*地税入口结束*/
+
+/*地税列表开始*/
+
+/*.tab_content {
+	padding: 10px 0;
+}
+.lacal_iteam_list {
+	border-bottom: 1px solid #cccccc;
+	height: 45px;
+	line-height: 18px;
+	overflow: hidden;
+	width: 1100px;
+	margin: 20px auto
+}
+.lacal_iteam_list dt {
+	color: #666;
+	float: left;
+	font-weight: bold;
+	height: 32px;
+	padding-top: 13px;
+	text-align: center;
+	white-space: nowrap;
+	width: 53px;
+	font-size: 16px;
+}
+.lacal_iteam_list dt a {
+	color: #333;
+}
+.lacal_iteam_list dd.hot-bt {
+	width: 40px;
+}
+.lacal_iteam_list dd {
+	float: left;
+	height: 40px;
+	padding-top: 5px;
+	position: relative;
+	width: 940px;
+}
+.lacal_iteam_list dd.hot-bt a {
+	display: inline-block;
+	height: 30px;
+	margin: 1px 0 0 22px;
+	vertical-align: top;
+	width: 30px;
+}
+.lacal_iteam_list dd.hot-bt a.disabled:hover {
+	background-color: #0092c7;
+}
+.lacal_iteam_list a i.icon_left, .lacal_iteam_list a i.icon_right {
+	width: 28px;
+	height: 28px;
+	background-color: #fff;
+	border: 1px solid #efefef;
+	display: inline-block;
+	background: url(../images/local_list_icon.png) no-repeat 8px 5px;
+}
+.lacal_iteam_list a i.icon_right {
+	background-position: 8px -48px
+}
+.lacal_iteam_list dd ul li {
+	float: left;
+	height: 40px;
+	line-height: 30px;
+	padding-left: 18px;
+	text-align: center;
+	width: 138px;
+}
+.lacal_iteam_list dd ul li a {
+	color: #666;
+	font-size: 16px;
+}
+.lacal_iteam_list dd ul li a:hover {
+	color: #0092c7;
+}*/
+
+.local_content_box table {
+  width: 100%;
+}
+
+.local_content_box .classic_title {
+  line-height: 60px;
+  width: 100px;
+  border-bottom: 3px solid #0092c7;
+  text-align: center;
+  font-size: 16px;
+  color: #0092c7;
+  background-color: #F9F9F9;
+}
+
+.local_content_box table td {
+  line-height: 40px;
+  border-bottom: 1px solid #CCC;
+}
+
+.local_content_box table td a {
+  font-size: 14px;
+  color: #333;
+  display: block;
+  float: left;
+  margin-left: 20px;
+}
+
+.local_content_box table td a:hover {
+  color: #0092c7;
+}
+
+/*地税列表结束*/
+
+/*联系方式详情页开始*/
+
+.classic_detail {
+  padding: 10px;
+  margin: 20px 0;
+  background: #fff;
+}
+
+.classic_detail table {
+  width: 100%;
+}
+
+.classic_detail table th {
+  background-color: #f0f0f0;
+  line-height: 60px;
+  color: #666;
+  font-size: 16px;
+  border: 1px solid #f5f5f5;
+}
+
+.classic_detail table td {
+  line-height: 32px;
+  font-size: 14px;
+  color: #666;
+  border: 1px solid #f5f5f5;
+  text-align: left;
+  padding: 10px 10px;
+  vertical-align: top;
+}
+
+.classic_detail_name {
+  width: 320px;
+}
+
+.classic_detail_address {
+  width: 600px;
+}
+
+.classic_detail table tr:hover:even {
+  background-color: #f00;
+}
+
+/*联系方式详情页结束*/
+
+/*===============================视频图文列表展示区域================================*/
+
+.content_width_image {
+  width: 1224px;
+  margin: 0 auto;
+}
+
+/*视频列表用到的容器*/
+
+.newest_item {
+  display: block;
+  float: left;
+  display: inline;
+  width: 286px;
+  height: 240px;
+  text-align: center;
+  padding: 10px;
+  transition: all 0.2s linear;
+  background-color: #fff;
+}
+
+.newest_item .iteam_box {
+  width: 266px;
+  background-color: #fff;
+  padding: 10px 10px;
+  margin: 0 auto;
+}
+
+.newest_item .iteam_box h4 {
+  font-size: 14px;
+  text-align: left;
+  line-height: 32px;
+  font-weight: normal;
+}
+
+.newest_item .iteam_box h4 a {
+  color: #4C6471;
+}
+
+.time {
+  font-style: normal;
+  padding-left: 10px;
+  line-height: 26px;
+  height: 26px;
+  display: inline-block;
+  background: url(../images/header.png) no-repeat -6px -350px;
+}
+
+.newest_item img {
+  width: 285px;
+  height: 160px;
+}
+
+/*-- 视频图文列表副标题 --*/
+
+.course_count {
+  width: 266px;
+  height: 30px;
+  color: #999;
+  line-height: 30px;
+}
+
+.course_count .course_time,
+.course_count .course_like {
+  float: left;
+  position: relative;
+  text-align: left;
+  padding-left: 20px
+}
+
+.course_count .course_time {
+  width: 144px;
+}
+
+.course_count .course_like {
+  width: 82px;
+}
+
+.time_icon,
+.like_icon {
+  position: absolute;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  left: 0px;
+  top: 7px;
+}
+
+.time_icon {
+  background: url(../images/header.png) no-repeat 0px -356px;
+}
+
+.like_icon {
+  background: url(../images/header.png) no-repeat 0px -402px;
+}
+
+.course_count span {
+  text-align: left;
+}
+
+.newest_item_active,
+.newest_item:hover {
+  background: #fff;
+  box-shadow: 0px 15px 30px #ccc;
+  transform: translate3d(0px, -2px, 0px);
+}
+
+.newest_item:hover .iteam_box h4 a {
+  color: #0a9ef8;
+}
+
+.newest_item:hover .like_icon,
+.newest_item_active .like_icon {
+  background: url(../images/header.png) no-repeat 0px -495px;
+}
+
+.newest_item:hover .time_icon,
+.newest_item_active .time_icon {
+  background: url(../images/header.png) no-repeat 0px -447px;
+}
+
+.all_course_a {
+  width: 146px;
+  margin: 30px auto;
+}
+
+.all_course_a a {
+  display: block;
+  width: 146px;
+  height: 36px;
+  color: #4C6471;
+  font-size: 16px;
+  text-align: center;
+  line-height: 36px;
+  border: 1px solid #dfdfdf;
+  border-radius: 50px;
+  background: #fff;
+}
+
+.all_course_a a:hover {
+  background: #0092C7;
+  color: #fff;
+  border: 1px solid #0092C7;
+}
+
+.nav ul li a .nav_span a {
+  display: none;
+  background: none;
+  color: #f00;
+}
+
+/*安全退出开始*/
+
+.exit_box {
+  background: #fff;
+  margin: 36px auto;
+  overflow: hidden;
+  min-height: 300px;
+}
+
+.exit_content {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.exit_img {
+  float: left;
+  width: 95px;
+  height: 95px;
+  padding: 18px;
+}
+
+.exit_img img {
+  width: 95px;
+  height: 95px;
+}
+
+.exit_result_con {
+  width: 218px;
+  float: left;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 30px 10px;
+}
+
+.exit_result_con p {
+  font-size: 18px;
+}
+
+.exit_result_con a {
+  color: #2C92D0;
+}
+
+.exit_result_con a:hover {
+  text-decoration: underline;
+}
+
+.selectbox {
+  border: 1px solid #dfdfdf;
+  font-size: 14px;
+  height: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
+  width: 100px;
+  padding-left: 10px;
+  border-radius: 5px;
+  color: #656565;
+  overflow: scroll;
+  font-family: "微软雅黑";
+  float: left;
+  margin-left: 5px;
+}
+
+/*安全退出结束*/
+
+/*地图样式开始*/
+
+.jvectormap-label {
+  position: absolute;
+  display: none;
+  cursor: pointer;
+  color: #f00;
+  font-size: 12px;
+  z-index: 10000;
+}
+
+.customProvince {
+  width: 600px;
+  height: 500px;
+  position: absolute;
+  /*margin: 45px auto 0px 200px;*/
+  z-index: 1;
+  /*background: #fff;*/
+  left: 500px;
+  top: 60px;
+}
+
+/*地图样式结束*/
+
+/*注册成功开始*/
+
+.registered_box {
+  background: #fff;
+  margin: 36px auto;
+  overflow: hidden;
+  min-height: 300px;
+}
+
+.registered_content {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.registered_img {
+  float: left;
+  width: 95px;
+  height: 95px;
+  padding: 18px;
+}
+
+.registered_img img {
+  width: 95px;
+  height: 95px;
+}
+
+.registered_result_con {
+  width: 300px;
+  float: left;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 30px 10px;
+}
+
+.registered_result_con span {
+  display: block;
+  margin-top: 15px;
+}
+
+.registered_result_con p {
+  font-size: 18px;
+}
+
+.registered_result_con a {
+  color: #2C92D0;
+}
+
+.registered_result_con a:hover {
+  text-decoration: underline;
+}
+
+/*注册成功开始*/
+
+/*弹出框开始*/
+
+.pop-up {
+  background-color: #fff;
+  border: 2px solid #2E92D0;
+  height: auto;
+  left: 50%;
+  margin: -100px 0 0 -200px;
+  position: absolute;
+  top: 50%;
+  width: 400px;
+  display: none;
+}
+
+.login_border {
+  border-color: #2E92D0;
+}
+
+.login_background {
+  background: #2E92D0;
+}
+
+.pop-up-close {
+  background: #2E92D0 none repeat scroll 0 0;
+  color: #fff;
+  font-size: 21px;
+  height: 40px;
+  left: 0;
+  line-height: 35px;
+  position: absolute;
+  text-align: center;
+  width: 400px;
+}
+
+.pop-up-close a {
+  background: url(../images/close.png) no-repeat scroll 0 -4px;
+  display: block;
+  height: 22px;
+  position: absolute;
+  right: 4px;
+  top: 8px;
+  width: 22px;
+}
+
+.pop-up-close a:hover {
+  background: rgba(0, 0, 0, 0) url("../images/close.png") no-repeat scroll -55px -4px;
+  top: 8px;
+}
+
+.pop-up .login {
+  margin: 0 auto;
+  padding: 50px 0;
+  width: 300px;
+}
+
+.pop-up .login_field {
+  padding-bottom: 5px;
+}
+
+.pop-up .login_field label {
+  color: #606060;
+  display: block;
+  font-weight: 700;
+  padding-bottom: 3px;
+}
+
+.login-text {
+  border: 1px solid #c8c8c8;
+  height: 18px;
+  line-height: 18px;
+  margin-right: 3px;
+  padding: 3px;
+  vertical-align: middle;
+  width: 292px;
+}
+
+.login-text {
+  border-color: #cbcbcb;
+  color: #9b9b9b;
+}
+
+.login_field a {
+  color: #09f !important;
+  display: block;
+  float: right;
+  font-weight: normal;
+  line-height: 18px;
+}
+
+.submit {
+  padding-top: 5px;
+}
+
+.submit button {
+  background-position: 0 0;
+  height: 30px;
+  line-height: 30px;
+  width: 306px;
+}
+
+.submit button {
+  background: #2E92D0 none repeat scroll 0 0;
+  border: 0 none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  height: 33px;
+  line-height: 31px;
+  vertical-align: middle;
+  width: 299px;
+}
+
+/*弹出框结束*/
+
+/*公共头部样式开始*/
+
+.header {
+  background-color: #333333;
+  height: 40px;
+}
+
+.top_bar {
+  width: 100%;
+  line-height: 40px;
+}
+
+.topbar_left {
+  float: left;
+  width: 300px;
+  z-index: 12;
+}
+
+.top_menu {
+  color: #B0B0B0;
+  position: relative;
+  z-index: 9991;
+}
+
+.top_menu li {
+  width: 80px;
+  float: left;
+  position: relative;
+  text-align: center;
+}
+
+.top_menu strong {
+  display: block;
+  position: relative;
+  height: 40px;
+  padding: 0 10px;
+  font-weight: normal;
+  z-index: 20;
+}
+
+.top_menu strong.icon_arr,
+.logo,
+.search_button,
+.all,
+.left_arr {
+  background: url(../images/header.png) no-repeat;
+}
+
+.top_menu strong.icon_arr {
+  background-position: 65px 18px;
+}
+
+#jq_topmenu2 #menu {
+  width: 131px !important;
+}
+
+#jq_topmenu2 strong {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 104px;
+  overflow: hidden;
+  padding-right: 17px;
+  text-align: center;
+}
+
+.top_menu li.hover strong.icon_arr {
+  background-position: 65px -10px;
+}
+
+#jq_topmenu2 strong {
+  background-position: 116px 18px;
+}
+
+#jq_topmenu2 #menu.hover strong.icon_arr {
+  background-position: 116px -10px;
+}
+
+.top_menu li.hover strong {
+  border-bottom: none;
+  background-color: #fff;
+  color: #333;
+}
+
+.top_menu .jq_hidebox {
+  background: #fff;
+  position: absolute;
+  top: 40px;
+  right: 0px;
+  background-color: #fff;
+  border: 1px solid #dfdfdf;
+  border-top: none;
+  display: none;
+  z-index: 1002;
+  width: 420px;
+}
+
+.top_menu .jq_hidebox1 {
+  background: #fff;
+  position: absolute;
+  top: 40px;
+  right: 0px;
+  background-color: #fff;
+  border: 1px solid #dfdfdf;
+  border-top: none;
+  padding: 5px;
+  display: none;
+  width: 68px;
+  z-index: 9991;
+}
+
+.top_menu .jq_hidebox2 {
+  background: #fff;
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  background-color: #fff;
+  border: 1px solid #dfdfdf;
+  border-top: none;
+  padding: 5px;
+  display: none;
+  width: 119px;
+  z-index: 9991;
+  text-align: center;
+}
+
+.top_menu .jq_hidebox li,
+.top_menu .jq_hidebox1 li,
+.top_menu .jq_hidebox2 li {
+  height: 30px;
+  width: 68px;
+  line-height: 30px;
+}
+
+.jq_hidebox2 li {
+  width: 120px !important;
+}
+
+.top_menu .jq_hidebox li a:hover,
+.top_menu .jq_hidebox1 li a:hover,
+.top_menu .jq_hidebox2 li a:hover {
+  color: #0092C6;
+  text-decoration: underline;
+}
+
+.jq_hidebox a,
+.jq_hidebox1 a,
+.jq_hidebox2 a {
+  line-height: 20px;
+  color: #666;
+}
+
+.top_menu .news {
+  padding-left: 16px;
+}
+
+.top_menu li.weclome {
+  width: 120px;
+}
+
+.top_menu li.login,
+.top_menu li.register {
+  width: 40px;
+}
+
+.top_menu li.top_line {
+  width: 20px;
+}
+
+.top_menu .news a,
+.top_menu .login a,
+.top_menu .register a {
+  color: #B0B0B0;
+}
+
+.top_menu .news a:hover,
+.top_menu .login a:hover,
+.top_menu .register a:hover {
+  color: #2E92D0;
+}
+
+.number {
+  padding-left: 5px;
+  font-style: normal;
+  color: #F2572C;
+}
+
+.topbar_right {
+  float: right;
+  width: 200px;
+  right: 0;
+}
+
+/*------------header END-----------------*/
+
+/*------------logo START-----------------*/
+
+.logo {
+  background-position: -22px 0;
+  width: 220px;
+  height: 86px;
+  margin-top: 16px;
+  float: left;
+}
+
+.logobg {
+  background-color: #fff;
+  overflow: hidden;
+}
+
+/*------------logo END-----------------*/
+
+/* 城市切换开始 */
+
+.city_bg {
+  width: 116px;
+  height: 84px;
+  margin-top: 16px;
+  float: left;
+}
+
+.boxSearch {
+  width: 64px;
+  padding-left: 14px;
+  color: #777;
+  line-height: 22px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.boxSearch .ico_shBlue {
+  margin-top: 7px;
+  width: 16px;
+  height: 18px;
+  display: inline-block;
+  background-position: 0 0;
+}
+
+.search_form_suggest {
+  background: #fff;
+  border: 1px solid #ccc;
+  left: 352px;
+  padding: 5px 15px;
+  position: absolute;
+  top: 113px;
+  width: 368px;
+  z-index: 9997;
+  display: none;
+}
+
+.search_form_suggest h3 {
+  font-size: 12px;
+  font-weight: normal;
+  height: 20px;
+  line-height: 20px;
+  padding: 0 0 5px 10px;
+  color: #0a9ef8;
+  border-bottom: 1px solid #e6e6e6;
+  margin-bottom: 4px;
+  width: 315px;
+}
+
+.search_form_suggest .btn_close {
+  background-position: 0 -127px;
+  cursor: pointer;
+  height: 30px;
+  overflow: hidden;
+  text-indent: -9999px;
+  width: 18px;
+  display: inline-block;
+  float: right;
+}
+
+.search_form_suggest .btn_close:hover {
+  background-position: 0 -127px;
+}
+
+.btn_close {
+  position: absolute;
+  background: url(../images/onlinetax.png) no-repeat -78px -1423px;
+  width: 22px;
+  height: 22px;
+}
+
+.btn_close_ico {
+  width: 28px;
+  height: 22px;
+  display: block;
+  float: right;
+  color: #0a9ef8;
+}
+
+.btn_close_ico:hover {
+  text-decoration: underline;
+}
+
+.clr_after a {
+  text-decoration: none;
+}
+
+.clr_after a:hover {
+  background: #0092C7;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.search_city_result {
+  line-height: 24px;
+  margin: 10px 0 -5px 108px;
+  height: 24px;
+}
+
+.tab_select {
+  text-align: left;
+  width: 300px;
+}
+
+.tab_select dl {
+  float: left;
+}
+
+.tab_select dt {
+  width: 46px;
+  background: #0092C7;
+  font: bold 12px/22px Tahoma, Geneva, sans-serif;
+  color: #fff;
+  text-align: center;
+  margin-left: 5px;
+  float: left;
+  border-radius: 4px
+}
+
+.tab_select dd {
+  line-height: 22px;
+  width: 368px;
+  _width: 360px;
+  float: inherit;
+  padding: 5px 0;
+}
+
+.tab_select dd a {
+  color: #0092C7;
+  margin-left: 10px;
+  display: inline-block;
+  padding: 0 2px;
+}
+
+.key_word {
+  color: #F2572D;
+}
+
+.province {
+  color: #4D6471;
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+/* 城市切换结束 */
+
+.search {
+  float: right;
+  margin-top: 16px;
+}
+
+.search input {
+  float: left;
+}
+
+.search_text {
+  width: 416px;
+  height: 36px;
+  background-color: #fff;
+  border: 2px solid #2d92d1;
+  padding-left: 6px;
+  vertical-align: middle;
+  margin: 0;
+  line-height: 36px;
+}
+
+.search_button {
+  width: 60px;
+  height: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  border: none;
+  margin: 0;
+  background-color: #2d92d1;
+  cursor: pointer;
+  background-position: 18px -78px;
+}
+
+/* nav 开始 */
+
+.nav {
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  position: relative;
+  z-index: 9990;
+  border-bottom: 2px solid #0092C7;
+}
+
+/*右边导航开始*/
+
+.nav_item {
+  width: 140px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 50px;
+  position: relative;
+}
+
+.nav_item a {
+  display: block;
+  color: #333;
+}
+
+.nav_item a:hover {
+  color: #0092C7;
+}
+
+.header_link_nav a {
+  color: #0092C7;
+}
+
+/* 二级菜单*/
+
+.nav_item ul.children {
+  background: #0092C7;
+  left: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 50px;
+  width: 140px;
+  display: none;
+  z-index: 12;
+}
+
+.nav_item .children_arrow {
+  background: url(../images/header.png) no-repeat 0 -688px;
+  display: inline-block;
+  font-style: normal;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  top: 0px;
+  left: 58px;
+  z-index: 1002;
+}
+
+.nav_item ul.children li h3 {
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  font-weight: normal;
+}
+
+.nav_item ul.children li a {
+  display: block;
+  padding: 3px 0;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  width: 140px;
+}
+
+.nav_item ul.children li a:hover {
+  background: #006F99;
+  text-decoration: none;
+}
+
+.navhover {
+  color: #1a529c;
+  background-color: #006F99;
+  cursor: pointer;
+}
+
+.nav .nav-menu li {
+  float: left;
+}
+
+/*全部分类*/
+
+.nav_category {
+  font-size: 16px;
+  line-height: 50px;
+  position: relative;
+  width: 220px;
+  background-color: #2d92d1;
+  color: #fff;
+  background: url(../images/header.png) no-repeat 14px -109px #0092C7;
+}
+
+.nav .nav_all {
+  width: 174px;
+  height: 50px;
+  color: #fff;
+  padding-left: 38px;
+}
+
+.dl_nav {
+  width: 84px;
+  float: left;
+  line-height: 30px;
+  text-align: center;
+}
+
+.dl_nav .website_nav_strong {
+  font-size: 14px;
+  height: 30px;
+  padding: 0;
+  color: #333;
+}
+
+.jq_hidebox a:hover {
+  color: #2E92D0;
+}
+
+.topbar_right .top_menu {
+  float: right;
+  position: relative;
+  z-index: 9991;
+}
+
+/*------ 全部分类的分类展示效果 开始 --------*/
+
+.all_classify {
+  width: 220px;
+  position: absolute;
+  left: 0;
+  top: 50px;
+  z-index: 100;
+  background: #0092C7;
+  font-size: 18px;
+  height: 300px;
+}
+
+.all_classify dl {
+  width: 220px;
+  height: 44px;
+  border-top: 1px solid #1697e3;
+  padding: 8px 0 7px 0;
+  position: relative;
+  clear: both;
+}
+
+.all_classify dl:hover {
+  background-color: #006F99
+}
+
+.all_classify dl dt {
+  font-weight: normal;
+  font-size: 14px;
+  color: #fff;
+  height: 24px;
+  line-height: 24px;
+  padding-left: 14px;
+  background: url(../images/header.png) no-repeat 199px -146px;
+}
+
+.all_classify dl dd {
+  height: 20px;
+  padding-left: 14px;
+  overflow: hidden;
+}
+
+.all_classify dl a {
+  color: #99E3FF;
+  font-size: 12px;
+  float: left;
+}
+
+.all_classify dl dd .classify_sub {
+  display: block;
+  line-height: 20px;
+  margin-right: 20px;
+  height: 20px;
+}
+
+.all_classify dl dd a:hover {
+  text-decoration: underline;
+}
+
+.all_classify dl .classify_expansion {
+  width: 118px;
+  background-color: #fff;
+  border: 3px solid #006D97;
+  position: absolute;
+  left: 220px;
+  top: 0px;
+  color: #333;
+  font-size: 12px;
+  line-height: 30px;
+  padding: 10px 20px;
+  z-index: 99;
+  display: none;
+}
+
+.all_classify dl .classify_expansion ul li {
+  width: 158px;
+}
+
+.all_classify dl .classify_expansion a {
+  color: #333;
+}
+
+.all_classify dl .classify_expansion a:hover {
+  color: #0a9ef8;
+}
+
+/*------ 全部分类的分类展示效果 结束 --------*/
+
+.nav_left {
+  z-index: 1;
+}
+
+.nav_left h3 {
+  color: #fff;
+  font-weight: normal;
+  padding-left: 5px;
+  font-size: 16px;
+  line-height: 38px;
+}
+
+.nav_left a {
+  display: block;
+  width: 148px;
+  color: #fff;
+  background: url(../images/header.png) no-repeat 195px -144px #0092C7;
+}
+
+.nav_left a:hover {
+  background: url(../images/header.png) no-repeat 195px -144px #006F99;
+  color: #fff;
+  text-decoration: none;
+}
+
+.all_classify dl dd .nav_right {
+  width: 150px;
+  height: auto;
+  overflow: hidden;
+  position: absolute;
+  left: 220px;
+  top: 0px;
+  padding: 0px 5px 10px 5px;
+  background: #fff;
+  border: 3px solid #006F99;
+  display: none;
+}
+
+.all_classify dl dd .nav_right a {
+  padding-left: 5px;
+  font-size: 12px;
+  height: 28px;
+}
+
+.all_classify dl dd .nav_right a:hover {
+  background: none;
+  color: #0092C6;
+  text-decoration: underline;
+}
+
+/*右边导航结束*/
+
+/* nav结束 */
+.crumbs {
+  line-height: 40px;
+  font-size: 14px;
+  color: #333;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.crumbs a {
+  color: #666;
+  padding-right: 15px;
+  background: url("data:image/png;base64,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0p8zAAA7j2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMwNjcgNzkuMTU3NzQ3LCAyMDE1LzAzLzMwLTIzOjQwOjQyICAgICAgICAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iCiAgICAgICAgICAgIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIgogICAgICAgICAgICB4bWxuczpzdEV2dD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlRXZlbnQjIgogICAgICAgICAgICB4bWxuczpwaG90b3Nob3A9Imh0dHA6Ly9ucy5hZG9iZS5jb20vcGhvdG9zaG9wLzEuMC8iCiAgICAgICAgICAgIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIKICAgICAgICAgICAgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iCiAgICAgICAgICAgIHhtbG5zOmV4aWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20vZXhpZi8xLjAvIj4KICAgICAgICAgPHhtcDpDcmVhdG9yVG9vbD5BZG9iZSBQaG90b3Nob3AgQ0MgMjAxNSAoV2luZG93cyk8L3htcDpDcmVhdG9yVG9vbD4KICAgICAgICAgPHhtcDpDcmVhdGVEYXRlPjIwMTctMDQtMTRUMTc6MzQ6MDcrMDg6MDA8L3htcDpDcmVhdGVEYXRlPgogICAgICAgICA8eG1wOk1ldGFkYXRhRGF0ZT4yMDE3LTA0LTE0VDE3OjM0OjA3KzA4OjAwPC94bXA6TWV0YWRhdGFEYXRlPgogICAgICAgICA8eG1wOk1vZGlmeURhdGU+MjAxNy0wNC0xNFQxNzozNDowNyswODowMDwveG1wOk1vZGlmeURhdGU+CiAgICAgICAgIDx4bXBNTTpJbnN0YW5jZUlEPnhtcC5paWQ6MmE1NjYzNzUtY2VlNy00YzRhLWJlYWMtNDg1ZGM1YTM4ODhiPC94bXBNTTpJbnN0YW5jZUlEPgogICAgICAgICA8eG1wTU06RG9jdW1lbnRJRD5hZG9iZTpkb2NpZDpwaG90b3Nob3A6N2E5YTZjZjUtMjBmNS0xMWU3LTkzNTAtZmRmNWEzNjQzM2JkPC94bXBNTTpEb2N1bWVudElEPgogICAgICAgICA8eG1wTU06T3JpZ2luYWxEb2N1bWVudElEPnhtcC5kaWQ6OTI2ZWU0ZWQtNmJiZi00MjQ5LWJhNTctYWZmMTlhYzU2NWNkPC94bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ+CiAgICAgICAgIDx4bXBNTTpIaXN0b3J5PgogICAgICAgICAgICA8cmRmOlNlcT4KICAgICAgICAgICAgICAgPHJkZjpsaSByZGY6cGFyc2VUeXBlPSJSZXNvdXJjZSI+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDphY3Rpb24+Y3JlYXRlZDwvc3RFdnQ6YWN0aW9uPgogICAgICAgICAgICAgICAgICA8c3RFdnQ6aW5zdGFuY2VJRD54bXAuaWlkOjkyNmVlNGVkLTZiYmYtNDI0OS1iYTU3LWFmZjE5YWM1NjVjZDwvc3RFdnQ6aW5zdGFuY2VJRD4KICAgICAgICAgICAgICAgICAgPHN0RXZ0OndoZW4+MjAxNy0wNC0xNFQxNzozNDowNyswODowMDwvc3RFdnQ6d2hlbj4KICAgICAgICAgICAgICAgICAgPHN0RXZ0OnNvZnR3YXJlQWdlbnQ+QWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKFdpbmRvd3MpPC9zdEV2dDpzb2Z0d2FyZUFnZW50PgogICAgICAgICAgICAgICA8L3JkZjpsaT4KICAgICAgICAgICAgICAgPHJkZjpsaSByZGY6cGFyc2VUeXBlPSJSZXNvdXJjZSI+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDphY3Rpb24+c2F2ZWQ8L3N0RXZ0OmFjdGlvbj4KICAgICAgICAgICAgICAgICAgPHN0RXZ0Omluc3RhbmNlSUQ+eG1wLmlpZDoyYTU2NjM3NS1jZWU3LTRjNGEtYmVhYy00ODVkYzVhMzg4OGI8L3N0RXZ0Omluc3RhbmNlSUQ+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDp3aGVuPjIwMTctMDQtMTRUMTc6MzQ6MDcrMDg6MDA8L3N0RXZ0OndoZW4+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDpzb2Z0d2FyZUFnZW50PkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE1IChXaW5kb3dzKTwvc3RFdnQ6c29mdHdhcmVBZ2VudD4KICAgICAgICAgICAgICAgICAgPHN0RXZ0OmNoYW5nZWQ+Lzwvc3RFdnQ6Y2hhbmdlZD4KICAgICAgICAgICAgICAgPC9yZGY6bGk+CiAgICAgICAgICAgIDwvcmRmOlNlcT4KICAgICAgICAgPC94bXBNTTpIaXN0b3J5PgogICAgICAgICA8cGhvdG9zaG9wOkRvY3VtZW50QW5jZXN0b3JzPgogICAgICAgICAgICA8cmRmOkJhZz4KICAgICAgICAgICAgICAgPHJkZjpsaT5GRTMwMTQxQjVCQzM3QkVDMDhDMDQ1MkMzNjFGMDJDRDwvcmRmOmxpPgogICAgICAgICAgICAgICA8cmRmOmxpPmFkb2JlOmRvY2lkOnBob3Rvc2hvcDo4ZTZjYzU2MS01ZmI3LTExN2EtODU5Ni1hYjVjYjVjNzYxZTE8L3JkZjpsaT4KICAgICAgICAgICAgICAgPHJkZjpsaT54bXAuZGlkOkU4QUNDRkQ5N0Y5QTExRTY5ODNCQzA5MjVGMzY2OUVFPC9yZGY6bGk+CiAgICAgICAgICAgIDwvcmRmOkJhZz4KICAgICAgICAgPC9waG90b3Nob3A6RG9jdW1lbnRBbmNlc3RvcnM+CiAgICAgICAgIDxwaG90b3Nob3A6Q29sb3JNb2RlPjM8L3Bob3Rvc2hvcDpDb2xvck1vZGU+CiAgICAgICAgIDxwaG90b3Nob3A6SUNDUHJvZmlsZT5zUkdCIElFQzYxOTY2LTIuMTwvcGhvdG9zaG9wOklDQ1Byb2ZpbGU+CiAgICAgICAgIDxkYzpmb3JtYXQ+aW1hZ2UvcG5nPC9kYzpmb3JtYXQ+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgICAgIDx0aWZmOlhSZXNvbHV0aW9uPjcyMDAwMC8xMDAwMDwvdGlmZjpYUmVzb2x1dGlvbj4KICAgICAgICAgPHRpZmY6WVJlc29sdXRpb24+NzIwMDAwLzEwMDAwPC90aWZmOllSZXNvbHV0aW9uPgogICAgICAgICA8dGlmZjpSZXNvbHV0aW9uVW5pdD4yPC90aWZmOlJlc29sdXRpb25Vbml0PgogICAgICAgICA8ZXhpZjpDb2xvclNwYWNlPjE8L2V4aWY6Q29sb3JTcGFjZT4KICAgICAgICAgPGV4aWY6UGl4ZWxYRGltZW5zaW9uPjU8L2V4aWY6UGl4ZWxYRGltZW5zaW9uPgogICAgICAgICA8ZXhpZjpQaXhlbFlEaW1lbnNpb24+OTwvZXhpZjpQaXhlbFlEaW1lbnNpb24+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo8P3hwYWNrZXQgZW5kPSJ3Ij8+RzIOFgAAACBjSFJNAAB6JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAAAzUlEQVR4AQC9AEL/AdDQ0K4AAACGAAAAzAAAAAAAAAAAAgAAAJEAAACwAAAAMAAAAAAAAAAAAgAAAMEAAABhAAAAsgAAACwAAAAAAgAAAAAAAAC7AAAAZwAAALYAAAAcAgAAAAAAAAAAAAAAtwAAAHwAAADEBAAAAAAAAAAAAAAAWAAAAJYAAAA7BAAAAAoAAABOAAAAmwAAAGEAAADRBAAAAGAAAACNAAAASQAAAMIAAAAABAAAAHIAAABeAAAAwAAAAAAAAAAAAQAA///K1RK8T20oQwAAAABJRU5ErkJggg==") no-repeat right center;
+
+}
+
+.crumbs a:hover {
+  color: #666 !important;
+}
+
+/*-----------遮罩层样式-----------*/
+
+#mask {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 30;
+  -moz-opacity: 0.7;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+
+/*--弹窗样式开始--*/
+
+.pop_box {
+  width: 400px;
+  height: 200px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin: -120px 0 0 -200px;
+  border: 4px solid #2e92d0;
+  border-radius: 4px;
+  background-color: #fff;
+  z-index: 100000;
+}
+
+.demand {
+  overflow: hidden;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.demand_tit_bg {
+  width: 100%;
+  height: 40px;
+  background: #00abd8;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.demand_con {
+  font-size: 15px;
+  text-align: center;
+  color: #666;
+  height: 70px;
+  padding: 20px;
+}
+
+.demand_btn {
+  border: none;
+  /*width: 80px;*/
+  height: 30px;
+  padding: 0 20px;
+  line-height: 30px;
+  /*margin-left: 156px;*/
+  cursor: pointer;
+  background: #0092c7;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.cancelbtn {
+  border: none;
+  /*width: 80px;*/
+  height: 30px;
+  padding: 0 20px;
+  line-height: 30px;
+  cursor: pointer;
+  background: #0092c7;
+  border-radius: 3px;
+  color: #fff;
+}
+
+/*--弹窗样式结束--*/
+
+/*--反馈验证样式*/
+
+.report_iteam .report_tips {
+  width: 482px;
+  text-align: left;
+  color: #feac05;
+  font-size: 12px;
+  padding-left: 48px;
+}
+
+/*==================用户服务协议======================*/
+
+.agreement {
+  width: 1200px;
+  overflow: hidden;
+  padding: 64px 0;
+  margin: 20px auto;
+  background-color: #FFFFFF;
+  padding: 20px 50px;
+  line-height: 36px;
+  font-size: 12px;
+}
+
+.agreement h1 {
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  line-height: 48px;
+}
+
+.agreecontent {
+  text-align: left;
+}
+
+.agreecontent h4 {
+  font-size: 14px;
+  line-height: 40px;
+  margin-top: 5px;
+}
+
+.agreecontent p {
+  font-size: 12px;
+  line-height: 30px;
+  text-align: left;
+}
+
+.agreecontent ol li {
+  font-size: 12px;
+  text-align: left;
+  text-indent: 2em;
+}
+
+/*意见反馈提示*/
+
+.message_feedback {
+  padding: 20px 0;
+  margin: 0 auto;
+  width: 1180px;
+}
+
+.message_feedback_con {
+  background-color: #fff;
+  padding: 20px 60px;
+}
+
+.feedback_content {
+  width: 800px;
+  padding-top: 100px;
+  padding-bottom: 60px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.feedback_img {
+  width: 100px;
+  float: left;
+}
+
+.feedback_img img {
+  width: 100px;
+  height: 100px;
+}
+
+.feedback_result_con {
+  width: 680px;
+  float: left;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.feedback_result_con h2 {
+  font-weight: normal;
+  font-size: 18px;
+  color: #333;
+  padding-top: 10px;
+}
+
+.feedback_result_con p {
+  padding-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+.feedback_result_con p a {
+  color: #2C98DD;
+}
+
+.feedback_tips {
+  width: 400px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  color: #999;
+  font-size: 12px;
+  text-align: center;
+}
+
+.error_info .n-right .n-error {
+  left: 0px;
+  top: 0px;
+  *left: 0px !important;
+  *top: 38px !important;
+}
+
+/*搜索结果页面*/
+.index_problem_content {
+  background: #fff;
+  float: left;
+  margin-top: 20px;
+  min-height: 300px;
+  overflow: hidden;
+  padding-top: 100px;
+  width: 920px;
+}
+
+.operation_list_right {
+  margin-top: 20px;
+  width: 250px;
+  float: left;
+  margin-left: 20px;
+  display: inline;
+}
+
+.index_no_result_box {
+  width: 400px;
+  margin: 0 auto;
+}

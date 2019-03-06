@@ -1,0 +1,54 @@
+.pay-online_step{
+  min-height: 555px;
+  background-color: #fff;
+  padding-top: 50px;
+}
+  .pay-online_step .pay-step_con .pay-result {
+  width: 398px;
+  margin:0 auto;
+  overflow: hidden;
+}
+.pay-online_step .pay-step_con .pay-result:before {
+  display: block;
+  content: '';
+  height:190px;
+  width: 150px;
+  margin: 0 auto;
+  background: url('../images/control-install.png') no-repeat 0 0;
+
+}
+.pay-online_step .pay-step_con .pay-result .pay-result_icon {
+  width: 83px;
+  height: 183px;
+  float: left;
+  background: url("../images/pay-success.png") no-repeat 0px 0px;
+  overflow: hidden;
+}
+.pay-online_step .pay-step_con .pay-result .pay-result_con {
+  font-size: 14px;
+  color: #333;
+  float: left;
+}
+.pay-online_step .pay-step_con .pay-result .pay-result_con > h6 {
+  padding-top: 20px;
+  font-size: 18px;
+  color: #2dbd8c;
+  margin-bottom: 30px;
+  line-height: 20px;
+}
+.pay-online_step .pay-step_con .pay-result .pay-result_con > h6 > span {
+  font-size: 24px;
+  color: #f7425b;
+}
+.pay-online_step .pay-step_con .pay-result .pay-result_con > div {
+  padding-bottom: 15px;
+}
+.pay-online_step .pay-step_con .pay-result .pay-result_con > div i {
+  font-style: normal;
+}
+.pay-online_step .pay-step_con .pay-result .pay-result_con > div > a {
+  color: #29b6f6;
+}
+.pay-online_step .pay-step_con .pay-result .pay-result_con > div > a:hover {
+  color: #29b6f6;
+}
