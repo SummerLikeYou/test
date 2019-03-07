@@ -30,3 +30,9 @@ git pull origin master gitHub上的文件同步至本地
 分布式ssm项目构建完成，下一部集成ssm具体内容！！
 
 完成ssm项目的具体搭建，数据源 事务处理 mvc视图解析器 web.xml中配置系统启动监听器等等
+
+./bin/redis-server     前台启动redis
+
+./bin/redis-server redis.conf   后台启动redis
+
+redis中的  dump.rdb  是数据库信息，和你启动位置有关，第一次在什么位置启动，第二次还在同样位置下
